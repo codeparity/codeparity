@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @codeparity
-- 👀 I’m interested in doing randon stuff....with mouthing off my rudesh thoughts when i need to.
-- 🌱 I’m currently looking to work on stuff which makes me realize that i am still an engineer, not any corporate douchebad.
+- 👀 I’m interested in doing randon stuff....with mouthing off my rudest thoughts when i need to.
+- 🌱 I’m currently looking to work on stuff which makes me realize that i am still an engineer, not any other corporate douchebad.
 - 💞️ I’m looking to collaborate on nothing, i dont think people get me, and for some that do, lack the courage to follow through.
 - 📫 How to reach me ... dont!
 
