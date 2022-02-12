@@ -4,78 +4,99 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2022-02-13T02:55:12-00:00</lastmod>
+<loc>https://blog.codeparity.com/</loc>
+<lastmod>2022-02-13T04:05:59-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2022-02-13T02:55:12-00:00</lastmod>
+<loc>https://blog.codeparity.com/tags.html</loc>
+<lastmod>2022-02-13T04:05:59-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2022-02-13T02:55:12-00:00</lastmod>
+<loc>https://blog.codeparity.com/categories.html</loc>
+<lastmod>2022-02-13T04:05:59-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/authors.html</loc>
-<lastmod>2022-02-13T02:55:12-00:00</lastmod>
+<loc>https://blog.codeparity.com/authors.html</loc>
+<lastmod>2022-02-13T04:05:59-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2022-02-13T02:55:12-00:00</lastmod>
+<loc>https://blog.codeparity.com/archives.html</loc>
+<lastmod>2022-02-13T04:05:59-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/best-tool-removal.html</loc>
-<lastmod>2022-01-10T05:51:00+05:30</lastmod>
+<loc>https://blog.codeparity.com/fucking-stupid-things-managers.html</loc>
+<lastmod>2022-01-10T12:44:37+05:30</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>/category/general-predictions-warnings.html</loc>
-<lastmod>2022-01-10T05:51:00+05:53</lastmod>
+<loc>https://blog.codeparity.com/best-tool-removal.html</loc>
+<lastmod>2022-01-10T12:44:37+05:30</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://blog.codeparity.com/category/general-predictions-warnings.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/ethics.html</loc>
-<lastmod>2022-01-10T05:51:00+05:53</lastmod>
+<loc>https://blog.codeparity.com/category/in_progress.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/privacy.html</loc>
-<lastmod>2022-01-10T05:51:00+05:53</lastmod>
+<loc>https://blog.codeparity.com/tag/ethics.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/c4m.html</loc>
-<lastmod>2022-01-10T05:51:00+05:53</lastmod>
+<loc>https://blog.codeparity.com/tag/privacy.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/ashish-tanwar-aka-codeparity.html</loc>
-<lastmod>2022-01-10T05:51:00+05:53</lastmod>
+<loc>https://blog.codeparity.com/tag/c4m.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.codeparity.com/author/ashish-tanwar-aka-codeparity.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.codeparity.com/author/ashish-tanwarcodeparity.html</loc>
+<lastmod>2022-01-10T12:44:37+05:53</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
