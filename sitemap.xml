@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.codeparity.com/</loc>
-<lastmod>2022-02-14T13:48:36-00:00</lastmod>
+<lastmod>2022-02-14T14:14:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tags.html</loc>
-<lastmod>2022-02-14T13:48:36-00:00</lastmod>
+<lastmod>2022-02-14T14:14:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/categories.html</loc>
-<lastmod>2022-02-14T13:48:36-00:00</lastmod>
+<lastmod>2022-02-14T14:14:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/authors.html</loc>
-<lastmod>2022-02-14T13:48:36-00:00</lastmod>
+<lastmod>2022-02-14T14:14:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/archives.html</loc>
-<lastmod>2022-02-14T13:48:36-00:00</lastmod>
+<lastmod>2022-02-14T14:14:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +41,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.codeparity.com/my-google-mail-2.html</loc>
 <lastmod>2022-02-14T13:31:00+05:30</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://blog.codeparity.com/my-google-mail-1.html</loc>
+<lastmod>2022-02-14T11:23:00+05:30</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
