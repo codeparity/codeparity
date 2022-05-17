@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.codeparity.com/</loc>
-<lastmod>2022-05-17T22:36:43-00:00</lastmod>
+<lastmod>2022-05-18T03:17:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tags.html</loc>
-<lastmod>2022-05-17T22:36:43-00:00</lastmod>
+<lastmod>2022-05-18T03:17:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/categories.html</loc>
-<lastmod>2022-05-17T22:36:43-00:00</lastmod>
+<lastmod>2022-05-18T03:17:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/authors.html</loc>
-<lastmod>2022-05-17T22:36:43-00:00</lastmod>
+<lastmod>2022-05-18T03:17:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/archives.html</loc>
-<lastmod>2022-05-17T22:36:43-00:00</lastmod>
+<lastmod>2022-05-18T03:17:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/status-update-may2022.html</loc>
-<lastmod>2022-05-17T18:19:55+05:30</lastmod>
+<lastmod>2022-05-18T03:02:01+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,42 +68,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.codeparity.com/category/life.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tag/life.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tag/india.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tag/career.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tag/priorities.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.codeparity.com/tag/update.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -144,8 +144,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://blog.codeparity.com/author/codeparity-aka-ashish-tanwar.html</loc>
-<lastmod>2022-05-17T18:19:55+05:53</lastmod>
+<loc>https://blog.codeparity.com/author/codeparity.html</loc>
+<lastmod>2022-05-18T03:02:01+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
