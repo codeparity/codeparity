@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="sq_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.3789062"
+     inkscape:cx="403.94334"
+     inkscape:cy="227.35411"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1128" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="258.93159"
+       y="255.65466"
+       width="253.06841"
+       height="256.34534"
+       id="rect91252" />
+    <rect
+       x="0"
+       y="0"
+       width="255.02516"
+       height="256.94932"
+       id="rect16102" />
+  </defs>
+  <path
+     style="fill:#f9f9f9;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 512,0 0,512 h 512 z"
+     id="path6569" />
+  <text
+     xml:space="preserve"
+     id="text16100"
+     style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16102);fill:#000000;fill-opacity:1;stroke:none"
+     x="239.3745"
+     y="0"><tspan
+       x="156.14551"
+       y="181.11549"
+       id="tspan172050"><tspan
+         style="font-family:'Unlearned 2 BRK';-inkscape-font-specification:'Unlearned 2 BRK';text-align:end;text-anchor:end;fill:#ffffff"
+         id="tspan172048">C</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text91250"
+     style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect91252);fill:#000000;fill-opacity:1;stroke:none"
+     x="-35.773438"
+     y="0"><tspan
+       x="258.93164"
+       y="436.76979"
+       id="tspan172054"><tspan
+         style="font-family:'Unlearned 2 BRK';-inkscape-font-specification:'Unlearned 2 BRK';text-align:start;text-anchor:start;fill:#333333"
+         id="tspan172052">P</tspan></tspan></text>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#4d4d4d;fill-opacity:0;stroke:#4d4d4d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,511 V 0 h 511 z"
+       id="TopLeftTriangle" />
+  </g>
+</svg>
