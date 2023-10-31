@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150"
+   height="150"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logo_cp_sq.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9246"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="33.75"
+     inkscape:cy="89.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="0">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid9308"
+       enabled="false"
+       visible="false"
+       snapvisiblegridlinesonly="true"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs9241">
+    <rect
+       x="4.0204468"
+       y="64.93251"
+       width="141.6795"
+       height="62.536255"
+       id="rect9374" />
+    <rect
+       x="0.45639038"
+       y="0.011978149"
+       width="151.80521"
+       height="64.921936"
+       id="rect9318" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text9316"
+       style="font-size:37.3333px;white-space:pre;shape-inside:url(#rect9318);shape-padding:0.0473022;display:inline;fill:#008080;stroke:none;stroke-width:10;stroke-linecap:square;stroke-opacity:0.627121"
+       x="13.823996"
+       y="0"
+       transform="translate(-2.3949014,11.210104)"><tspan
+         x="28.871439"
+         y="38.325228"
+         id="tspan1226"><tspan
+           style="font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display, Normal'"
+           id="tspan1220">C</tspan><tspan
+           style="stroke-opacity:1"
+           id="tspan1222">o</tspan><tspan
+           style="font-family:Raleway;-inkscape-font-specification:Raleway;text-align:center;text-anchor:middle;fill:#151515"
+           id="tspan1224">de</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text9372"
+       style="white-space:pre;shape-inside:url(#rect9374);display:inline;fill:#008080;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-opacity:0.627121"
+       x="15.665999"
+       y="0"
+       transform="translate(1.2897034,25.430688)"><tspan
+         x="4.8546993"
+         y="103.19827"
+         id="tspan1232"><tspan
+           style="font-size:37.3333px;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display, Normal'"
+           id="tspan1228">P</tspan><tspan
+           style="font-size:37.3333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;text-anchor:middle;fill:#2a2a2a;stroke:none"
+           id="tspan1230">arity</tspan></tspan></text>
+  </g>
+</svg>
