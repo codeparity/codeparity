@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../category/rants.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,177 +31,471 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li class="nav-rants active" role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li class="nav-rants active" role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Category</span>
+            <span class="archive-count">
+            389 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Category rants</h1>
-        <span class="blog-description">Posts: 406</span>
-            <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">Rants</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Category rants" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/rants15.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 16 / 82</span>
-    <a class="pagination-prev" href="../category/rants17.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/rants15.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 16 of 78</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/rants17.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7189413329503752192.html" rel="bookmark" title="Permalink to NRI Privilege?">NRI Privilege?</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="26 Apr 2024">26 Apr 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7189326022096424960.html" rel="bookmark" title="Permalink to Veronicas - are timeless 🤣">Veronicas - are timeless 🤣</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 Apr 2024">25 Apr 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7188889043387015170.html" rel="bookmark" title="Permalink to as much as i admire lord Daigo in Fighting games...">as much as i admire lord Daigo in Fighting games...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="24 Apr 2024">24 Apr 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7188859058634788864.html" rel="bookmark" title="Permalink to Lemme paint a capitalistic pickture for the sigma gBaldies...">Lemme paint a capitalistic pickture for the sigma gBaldies...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="24 Apr 2024">24 Apr 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7188809825517015040.html" rel="bookmark" title="Permalink to Silence - the beech slap ...">Silence - the beech slap ...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="24 Apr 2024">24 Apr 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7194468658469822465.html" rel="bookmark" title="Permalink to Algo for 'burying the past'">Algo for 'burying the past'</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="10 May 2024">10 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Algo for 'burying the past' </p>
+<p>or processing delusions or memories</p>
+<p>Clarification</p>
+<p>Memories are delusions, simply cox memory contain only 1 perspective - urs</p>
+<p>Hence self bias.</p>
+<ol>
+<li>Consider all pivotal moments in your life - education, choices, streams, etx</li>
+</ol>
+<p>eg: 1st- bike, cycle, gf/bf, spouse, kids, deaths - all.</p>
+<p>Which 1 may think made them 'choose'</p>
+<ol>
+<li>
+<p>Now classify the 'intent' of making these pivotal choices and the 'results'</p>
+</li>
+<li>
+<p>The choice, and the 'results' </p>
+</li>
+</ol>
+<p>decision-&gt; feels</p>
+<ol>
+<li>Imagine the all possible choices - the metaverses</li>
+</ol>
+<p>Good bad, really doesnt matter</p>
+<ul>
+<li>
+<p>what matters is the 'choice' - the free will which was free or influenced.</p>
+</li>
+<li>
+<p>There is no point making 1 selves feel 'nice'</p>
+</li>
+<li>
+<p>it is just you</p>
+</li>
+<li>
+<p>a 0, coz life wont give time when 1 is not a 0</p>
+</li>
+<li>
+<p>0 allows 'time' to analyze it</p>
+</li>
+</ul>
+<p>=&gt; Identify the 'self bias' - money, lust, fame, security - doesnt matter</p>
+<p>Just know the bias.</p>
+<ol>
+<li>
+<p>revisit the same 'delusions' under different 'moods'</p>
+</li>
+<li>
+<p>self bias is relative</p>
+</li>
+<li>
+<p>depends on current 'mood' and 'knowledge'</p>
+</li>
+<li>
+<p>even on habitus - the peeps which make u, or your perspective</p>
+</li>
+</ol>
+<p>It seems simple...</p>
+<p>it is not</p>
+<p>it is a rabbit hole</p>
+<p>Key - dont get lost into alternate choices</p>
+<p>Humility in mind - ego recalibaration : is not easy.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7194468658469822465-cYki">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>delusional rationale for this 'algo' - doing it alone kinds...</p>
+<p>with or without 'psych' docs...</p>
+<p>action and reaction...</p>
+<p>i feel peeps in these fields - satanic/$/snake 1s - law holder, $ docs or pullics...</p>
+<p>they tend to encounter lots of 'sed lyf' stories...</p>
+<p>it hardens them - and then, makes them 'enjoi' them...</p>
+<p>the perspective - of all is bad, worst outcomes....</p>
+<p>they happen, but interacting with these peeps - kinda makes 1 sees 'worst' in possibilities...</p>
+<p>wise peeps say - make 1 fren with them...</p>
+<p>but - it seem like a deal with devil...or atleast some shadow of it.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>it definitely changes u...</p>
+<p>sf6 ken is different... 😂 
+</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>something which may 'rhyme'</p>
+<p>or not - depends on the current 'bias' - mood and habitus.</p>
+<p>😀 </p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/QGQCOxUQJWI'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span></p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7194269611784122368.html" rel="bookmark" title="Permalink to The "Matrix"/"Maya"">The "Matrix"/"Maya"</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="09 May 2024">09 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>The "Matrix"/"Maya"</p>
+<ul>
+<li>as Codeparity.paw sees it</li>
+</ul>
+<p>All our mind does is 'feel'</p>
+<p>think about it...</p>
+<p>it is not the emotional decisions...</p>
+<p>but the 'intent' which forces 1 to take a decision</p>
+<p>a decision -&gt; which leads to a feel</p>
+<p>It may be a promotion, a new job, or just lots of money...</p>
+<ul>
+<li>
+<p>feel in memory of now or in past</p>
+</li>
+<li>
+<p>decision taken to ensure a feel, or experiencing it</p>
+</li>
+</ul>
+<p>Logic mind decides, feel half 'processes' and provides 'feedback'</p>
+<p>to increase weight of an algo, a step which realized a 'feel' desired</p>
+<p>=&gt; it is a 'feels' based existence</p>
+<p>so a birth, can be viewed as an attempt of a soul to 'feel' something...</p>
+<p>good bad - there is no absolute...it is what the soul sought....</p>
+<p>Decision - good / bad - is just a relative attempt for a soul to provide a feedback of sorts...</p>
+<p>does it matter?</p>
+<p>past really doesnt, if 1 thinks from this perspective</p>
+<p>a 0 perspective.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7194269611784122368-fmp5">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>there is a weird algo for converting present to past - its called 'death' 😂 </p>
+<p>death of past - simply means processing past memory frames to intents and feels</p>
+<p>to compute the result - consciously without any self judgement..</p>
+<p>i ll write the algo too...it seems simple enough</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>past needs to be defined...</p>
+<p>past - something which 'happened' - anything - good/bad...</p>
+<p>if it doesnt 'interfere' in now or future - is the true past..</p>
+<p>else its just present.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7194254810420850688.html" rel="bookmark" title="Permalink to Everything is a torus and produces a torus fields">Everything is a torus and produces a torus fields</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="09 May 2024">09 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Everything is a torus and produces a torus fields</p>
+<ul>
+<li>
+<p>even to atomic levels</p>
+</li>
+<li>
+<p>dipoles and all</p>
+</li>
+</ul>
+<p>Earth, our bodies, ants and even innate objects like pen, paper etx</p>
+<ul>
+<li>all have torus fields</li>
+</ul>
+<p>North pole : said 'harshest' conditions is under contention from every country in the world</p>
+<p>allegedly oil, or many reasons...</p>
+<p>but what about a simple 1</p>
+<ul>
+<li>
+<p>earth is magentic</p>
+</li>
+<li>
+<p>all fields converge and diverge from poles</p>
+</li>
+<li>
+<p>a tap?</p>
+</li>
+</ul>
+<p>https://lnkd.in/gXi3trTR</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7194254810420850688-fZhT">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Our bodies - another form of torus...</p>
+<ul>
+<li>many implications - health, and even to eyes which see beyond the usual spectrum, like dogs or animals.</li>
+</ul>
+<p>On delusional lines - imagine if a dog can sense emotions via his eyes - a torus field</p>
+<p>Implication - animals dont sense fear - they see it- human emotions</p>
+<p>Scared people - often 'attacked' by dogs...</p>
+<p>coz dogs know that a bully is just a flip away from being scared - depends on leverage</p>
+<p>Hyenas.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7193918948470394880.html" rel="bookmark" title="Permalink to Black rocks/stones would go bust...">Black rocks/stones would go bust...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="08 May 2024">08 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Black rocks/stones would go bust...</p>
+<p>something i blabbered a year back...</p>
+<p>...yeah ...i felt it - conspiracy theory and all</p>
+<p>to those "fintech experts ......</p>
+<p>what does these companies really signify?</p>
+<p>they control the money - how it is directed...</p>
+<p>providing a perfect alibi under capitalism....</p>
+<p>wef decides the 'future', and rocks fund it...</p>
+<p>now back to rant : </p>
+<p>what would 'black rocks/stones bankruptcy look like'?</p>
+<ul>
+<li>no need for 'direction' or 'funding' or superiority gyaan</li>
+</ul>
+<p>the labels may remain - but the 'value' is gone.</p>
+<p>https://watcher.guru/news/brics-makes-huge-announcement-about-launching-new-currency</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7193918948470394880-51V9">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7193612028077301761.html" rel="bookmark" title="Permalink to Things coming together...">Things coming together...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="07 May 2024">07 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Things coming together...</p>
+<p>a good/comfortable workspace </p>
+<p>often the most important, yet underrated resource</p>
+<p>Nice speakers, arcade stick, a xeon box with ample power</p>
+<ul>
+<li>good enoughfor a 0</li>
+</ul>
+<p><em><a href="https://www.linkedin.com/posts/activity-7193612028077301761-fZKD">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/rants15.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 16 / 82</span>
-    <a class="pagination-prev" href="../category/rants17.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/rants15.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 16 of 78</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/rants17.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

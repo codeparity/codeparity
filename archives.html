@@ -19,13 +19,10 @@
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="./theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,46 +31,206 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '.';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
+
+
+
+
+
+
+
 <body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
 
-                  <li role="presentation"><a href="./category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="./category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="./category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="./category/stories.html">stories</a></li>
+    <li class="nav-Home active" role="presentation"><a href="/"><span>Home</span></a></li>
 
-    </ul>
+      <li role="presentation"><a href="./category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="./category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="./category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="./category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="./" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
-            </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
-          </span>
-        </nav>
-        <h1 class="post-title">A quest for balance - Archives</h1>
-          <div class="blog-cover cover" style="background-image: url('./images/logo_cp_rect_white_back.png')">
+        <h1 class="post-title">Archives</h1>
+          <div class="post-cover cover">
+            <img src="./images/logo_cp_rect_white_back.png" alt="A quest for balance" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
   <article class="post">
     <div class="inner">
-      <dl>
+      <section class="post-content">
+        <dl>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215962081441800192.html">It is still not 12... 😃</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215957945329627136.html">some insights into oil science and education</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215954041598533633.html">Why fighting games are Important.</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215940644769292288.html">The decline of gaming : effects of $/oil capitalism/intents</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215934123989770240.html">Energy :</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215923863551975424.html">The same question can be extended to various 'habit us' forming constructs</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215912047996207104.html">Isnt the artificial $ - the best eqv of tower of babylon?</a></dd>
+          <dt>08 Jul 2024</dt>
+          <dd><a href="./post_7215896258031366144.html">In all this 20+ years of baldie 'mentorship'...</a></dd>
+          <dt>07 Jul 2024</dt>
+          <dd><a href="./post_7215731872834756608.html">Plugging in - the tower of babylon story with now..</a></dd>
+          <dt>07 Jul 2024</dt>
+          <dd><a href="./post_7215637393368866816.html">i revisited - this spark and gVeronica 'story'...</a></dd>
+          <dt>07 Jul 2024</dt>
+          <dd><a href="./post_7215608796428009472.html">The innocence of 'gVeronica'</a></dd>
+          <dt>07 Jul 2024</dt>
+          <dd><a href="./post_7215599228834697216.html">The 'spark' of an idea - a startup, an org, family - anything</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215378492362801153.html">And gawd no : dont discuss this question with anyone..</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215361568056696832.html">For religious peeps.... a question</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215298323631460352.html">it is the 3rd quarter....</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215297481893457920.html">it would be so much easier : to explain all this via #gestalt</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215286252651073536.html">Thought, would watch mirzapur on weekend..</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215284311539736576.html">the sigma 'inner circle'</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215268032137289728.html">gBaldies dilemma</a></dd>
+          <dt>06 Jul 2024</dt>
+          <dd><a href="./post_7215080836176523265.html">How do we choose our wars?</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7215058586303881216.html">If 1 knows his 1 and 0s...</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214983764609753088.html">We and up becoming what we fear</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214973902702198784.html">U gotta start somewhere - in knowing yourselves...</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214960530652811265.html">It is the #weekend time...</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214949487889244160.html">Why i went 'animal kingdom'</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214938204418793472.html">"Kundalini" and bleh bleh of hindu.exe</a></dd>
+          <dt>05 Jul 2024</dt>
+          <dd><a href="./post_7214927892013596675.html">Hyenas</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214613360489693184.html">I really 'sinned' a lot today...</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214563352319074304.html">Relativity in this religion of CodeParity is really relative 😂</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214508401207230464.html">"Sip of Calamity"</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214497007074258946.html">I am beginning to lurv gAmit back...</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214430347868979200.html">"Sales jobs" - worst hit...</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214411053600788481.html">Imho : as daily advisor/wingman to gAmit 🤣</a></dd>
+          <dt>04 Jul 2024</dt>
+          <dd><a href="./post_7214383269566431232.html">Self destruction or ignorance of destruction</a></dd>
+          <dt>03 Jul 2024</dt>
+          <dd><a href="./post_7214105331851829248.html">The biggest gripe - I have with "amit" kinds</a></dd>
+          <dt>03 Jul 2024</dt>
+          <dd><a href="./post_7214072391327449089.html">a vector - is a 3d point + and 'intent' :where it wants to go</a></dd>
+          <dt>03 Jul 2024</dt>
+          <dd><a href="./post_7213995415296204801.html">Hockus Pockus and some prediction for gAmit and others...</a></dd>
+          <dt>02 Jul 2024</dt>
+          <dd><a href="./post_7213932687328260097.html">Religion is a divide</a></dd>
+          <dt>02 Jul 2024</dt>
+          <dd><a href="./post_7213826029935636480.html">Double or nothing</a></dd>
+          <dt>02 Jul 2024</dt>
+          <dd><a href="./post_7213791968118628352.html">why the hate for 'truecaller'</a></dd>
+          <dt>02 Jul 2024</dt>
+          <dd><a href="./post_7213667351932649472.html">This unkle - reaally want you all to 'study comics'</a></dd>
+          <dt>02 Jul 2024</dt>
+          <dd><a href="./post_7213661145503604736.html">This was not nicely received...i feel it...</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213602125212209152.html">some memes are just too nice..</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213541180842680320.html">I am about 'balance' of privacy...</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213529355489095681.html">I have a startup-y idea for any mobile app company...</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213397988352643074.html">it is very visible : this mental Pareidolia</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213380891039973376.html">Wth, work hours start on 12 on mondays...</a></dd>
+          <dt>01 Jul 2024</dt>
+          <dd><a href="./post_7213352733548904448.html">I need to 'define' all the strats in place..</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213197363937468417.html">the simplest logic of all this bleh blah...is quite simple</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213143546848006144.html">In all humility - i did warn and inform my sensei  😂</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213080937545310208.html">Privacy and its hacks...</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213076728783495168.html">I think there is a conspiracy, call it a delusional theory</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213073828829151232.html">I think i am crossing 'sin' limits again...</a></dd>
+          <dt>30 Jun 2024</dt>
+          <dd><a href="./post_7213058939016372224.html">New Term : gTurds</a></dd>
+          <dt>29 Jun 2024</dt>
+          <dd><a href="./post_7212753190084124672.html">Just coz i am disinterested with the gDrama...</a></dd>
+          <dt>29 Jun 2024</dt>
+          <dd><a href="./post_7212725815006912512.html">I am dealing with baldies - who are not v 👍 on "innovation"</a></dd>
+          <dt>29 Jun 2024</dt>
+          <dd><a href="./post_7212689232266477568.html">Saturday traditions - celebrating the baldies</a></dd>
+          <dt>28 Jun 2024</dt>
+          <dd><a href="./post_7212494910967402496.html">Took time, but now its live..</a></dd>
           <dt>27 Jun 2024</dt>
           <dd><a href="./post_7212031230815428608.html">personal debug of 'hockus pockus' stuff</a></dd>
           <dt>27 Jun 2024</dt>
@@ -2008,22 +2165,32 @@
           <dd><a href="./post_6005963807300599808.html"></a></dd>
           <dt>27 Feb 2014</dt>
           <dd><a href="./post_5844711722744549376.html"></a></dd>
-      </dl>
+        </dl>
+      </section>
     </div>
   </article>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="./theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="./theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

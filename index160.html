@@ -14,18 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="./" rel="canonical" />
+  <link href="./" rel="canonical" />
+
   <!-- Feed -->
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="./theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,6 +31,28 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
+  <script>
+    var siteUrl = '.';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
 
 
 
@@ -65,175 +85,472 @@
 }
 </script>
 </head>
-<!-- TODO : Body class -->
+
+
+
+
+
+
+
 <body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
 
-                  <li role="presentation"><a href="./category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="./category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="./category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="./category/stories.html">stories</a></li>
+    <li class="nav-Home active" role="presentation"><a href="/"><span>Home</span></a></li>
 
-    </ul>
+      <li role="presentation"><a href="./category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="./category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="./category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="./category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
-          </span>
-        </nav>
-        <h1 class="blog-name"><a href="./">A quest for balance</a></h1>
-        <span class="blog-description">Codeparity Thoths</span>
+        <div class="box blog-box">
+          <h1 class="blog-name">A quest for balance</h1>
+          <span class="blog-description">Codeparity Thoths</span>
+        </div>
 
-          <div class="blog-cover cover" style="background-image: url('./images/logo_cp_rect_white_back.png')">
+          <div class="blog-cover cover">
+            <img src="./images/logo_cp_rect_white_back.png" alt="A quest for balance" />
+          </div>
       </div>
     </header>
 
 
-  <section id="wrapper">
-    <a class="hidden-close"></a>
-
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="./index159.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 160 / 194</span>
-    <a class="pagination-prev" href="./index161.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="./index159.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 160 of 205</span>
+      <a title="Older Posts" class="pagination-prev" href="./index161.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7104952476918849536.html" rel="bookmark" title="Permalink to The other "ironies" of this "memorable" AI experience">The other "ironies" of this "memorable" AI experience</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="06 Sep 2023">06 Sep 2023</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7104551391158841344.html" rel="bookmark" title="Permalink to Start with Tech revolution - tesla, spaceX">Start with Tech revolution - tesla, spaceX</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="05 Sep 2023">05 Sep 2023</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7103356712409022464.html" rel="bookmark" title="Permalink to I did a bit of homebrew to automate all this">I did a bit of homebrew to automate all this</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="01 Sep 2023">01 Sep 2023</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7103335672542822401.html" rel="bookmark" title="Permalink to Cert In ?">Cert In ?</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="01 Sep 2023">01 Sep 2023</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7102266083469856768.html" rel="bookmark" title="Permalink to 241 days ago - on 31 Dec i started talking and informing ppl about "all this"">241 days ago - on 31 Dec i started talking and informing ppl about "all this"</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="29 Aug 2023">29 Aug 2023</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7121543780276535296.html" rel="bookmark" title="Permalink to They call it holy grail or some glorified bakwass - the more you do it - ultimately u ll end up debugging your mind/body.">They call it holy grail or some glorified bakwass - the more you do it - ultimately u ll end up debugging your mind/body.</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/rants.html">Rants</a>
+                      on <time datetime="21 Oct 2023">21 Oct 2023</time>
+                </span>
+                <section class="post-content">
+                <p>They call it holy grail or some glorified bakwass - the more you do it - ultimately u ll end up debugging your mind/body.</p>
+<p>In a free flowing body - the torroid field - which the blood essentially generates - when it moves ...gets enhanced</p>
+<p>the "invisible" quality you feel when u talk to them - see them ...it is this invisible torroid field </p>
+<ul>
+<li>absolutely...delusional - 😀</li>
+</ul>
+<p><em><a href="https://www.linkedin.com/posts/activity-7121543780276535296-p9JP">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>masters - they show this "symbolically" in the matrix</p>
+<p>neo - (may mean your conscious brain)</p>
+<p>gets awakened when he starts "debugging/hacking" </p>
+<p>smith- challenges</p>
+<p>neo - elevates</p>
+<p>unplugs</p>
+<p>...knows, but doesnt believe</p>
+<p>"trinity" - the trident/trishula - is really a sync of mind/body &amp;&amp; feelings/logic</p>
+<p>trinity 😘 neo - chakras activate...</p>
+<p>in final ones...he is aware of this field.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>In "Indian" culture - it is called "Kundilini awakening" - to become aware - at some layer...</p>
+<p>there are many layers - most ppl get settled and happy at 1st - the scaral / blue pill gateway.</p>
+<p>It is like being stuck in mario world -1 ...</p>
+<p>and u ll get the queeen and coins...if thats what you are after.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7121499689509695488.html" rel="bookmark" title="Permalink to The "Key"">The "Key"</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="21 Oct 2023">21 Oct 2023</time>
+                </span>
+                <section class="post-content">
+                <p>The "Key"</p>
+<p>To debug yourself:</p>
+<p>Understand and quantify the "emotion"</p>
+<p>eg - right now </p>
+<ul>
+<li>
+<p>why this guy</p>
+</li>
+<li>
+<p>does he ever work...</p>
+</li>
+</ul>
+<p>the emotion - curiosity, hate, lurv etc</p>
+<p>and i am all those things 😀 </p>
+<ul>
+<li>but lets make it about "debugging"</li>
+</ul>
+<p>Why did 1 feels that - the reason and logic is the key</p>
+<p>the thought process goes like this</p>
+<p>hate</p>
+<ul>
+<li>
+<p>i hate his face</p>
+</li>
+<li>
+<p>i hate cox a 0 cannot be "right" - brand always is "company, religion, leader etc"</p>
+</li>
+<li>
+<p>i hate the "disrespectful-ness"</p>
+</li>
+</ul>
+<p>to sum it up:</p>
+<ol>
+<li>
+<p>Pause, take a breath</p>
+</li>
+<li>
+<p>ask the "why"</p>
+</li>
+</ol>
+<p>see - no going to a "quiet" place or "being holy" and all -effienet and hacky as you would like it - engages - the Neo brain (conscious thinking) over impulse.</p>
+<p>As an engineer - understanding "why" - to the level of perception i have - was satisfying.</p>
+<p>The logic "whys" - the layers to which 1 can debug himselves - the bigger Neo he becomes (Neo-cortex) something which evolves vs the very physical, literal lizard brain we all have.....</p>
+<p>//he is delusional , still why i am i reading this??</p>
+<p>// ask the "why"</p>
+<p>g_baldie_1 unkle_lessions</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7121499689509695488-bVzy">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>I ll give a g_baldie_1 and general g_baldies[] example</p>
+<p>to "solve" for g_baldies[]</p>
+<ul>
+<li>
+<p>understand the "why"</p>
+</li>
+<li>
+<p>observe the "why" - as time goes - deltas</p>
+</li>
+<li>
+<p>observe the change in "whys"</p>
+</li>
+</ul>
+<p>the answer in low iq $ world - is just $ </p>
+<p>then what they do with it </p>
+<p>g_baldies[] buy teslas 😁 </p>
+<p>their glasses really go "golden"</p>
+<p>the tone - authoritative</p>
+<p>logic - non explainable - just ppl and their past "high scores"</p>
+<p>then - go hack - at any layer</p>
+<p>i ll use the $ game and its "knowledge" </p>
+<p>what ppl do with it...</p>
+<p>sometimes, it is just sad - a g_baldie_1 craving for fame, emotion - never had in school, college, pro_life - ever</p>
+<p>now - u got "nice" women - going all 😂 😂 </p>
+<p>and aww - the 1" intellectual thing - the rockstar / pink floydm  logging it out - corp version of "angst" - highs, which may be "unconquered" if humble leaders like us, dont make time to play "Comfortably numb" - at 6:00 PM - friday evening </p>
+<ul>
+<li>coz - hey "inspiring" ppl is "work"</li>
+</ul>
+<p>it is.</p>
+<p>something sacred about fridays - life really starts there.
+</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>Sometimes - atleast for me - there was a time - 10-13 years ago...when the "why"s stopped calming me down</p>
+<p>that was the time - the doc was really needed - the rage was just whack - autoimmune disease - in a different form</p>
+<p>an unsolved nutritional/cultural "why" which the doctors, leaders of the world - never debugged, just accepted.</p>
+<ul>
+<li>i dint.</li>
+</ul>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>took "hate" as example - a general observation on "likeys" vs reads</p>
+<p>nihilism - the roots of codeparity are in reality - not in some philosophical or real creature</p>
+<p>...</p>
+<p>skill - or power - can be gained or hacked</p>
+<p>...the choices multiply if "dark" side is the only option</p>
+<p>...no different than evolution or devolution.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/religion.html">religion</a><a href="./tag/codeparity.html">codeparity</a><a href="./tag/baldie.html">baldie</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7120662264679964673.html" rel="bookmark" title="Permalink to What i am describing here - is the formal "CodeParity" religion.">What i am describing here - is the formal "CodeParity" religion.</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="19 Oct 2023">19 Oct 2023</time>
+                </span>
+                <section class="post-content">
+                <p>What i am describing here - is the formal "CodeParity" religion.</p>
+<p>I ll call it "religion" because "religion" is essentially a social protocol which establishes "trust" between people.</p>
+<p>The beliefs of this religion would override each and every piece of habitus values any employee may imbibe (economic, religious, abilities, appearance - quantified equality)</p>
+<p>And i will quantify them - as i build and commercialize "paw" - open source, self maintainable - build by people with "values".</p>
+<p>Merit based on values. </p>
+<p>Colorful in expression, practice and challenges.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7120662264679964673-8sUy">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>todo : write this in some txt, struct, github repo, gnu gpl - some variant...</p>
+<p>forkable religion/values - trust that scales - between individuals/companies - i like to face abduls/alfreds - not just cry about it</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>this whole stuff would go in the ppt/website - good "slogans" etc....publicity stuff...</p>
+<p>joker stuff</p>
+<p>capitalistic sustainability - inverted on "masters"</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>it is really a timesaver - ppl should know the "joker" they are dealing with.</p>
+<p>😀 </p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/religion.html">religion</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7120642748700897280.html" rel="bookmark" title="Permalink to In a sane world">In a sane world</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="19 Oct 2023">19 Oct 2023</time>
+                </span>
+                <section class="post-content">
+                <p>In a sane world</p>
+<p>A physicist proves:</p>
+<p>3d world is a simulation for 4d being</p>
+<p>4d world for a 5d being entity</p>
+<p>-kind of endless Russian dolls - lower, upper - a 3d/2d - relative perspective </p>
+<p>Religious Leaders:</p>
+<p>Use eyes to realize that different ppl and have their different gods and beliefs - if they work - they will keep to themselves. </p>
+<p>A 4d being (God) can be equated to a 0 - the paradox of representing an entity when entity cant be represented.</p>
+<p>Shape, appearance, acts - really dont matter.</p>
+<p>Political leaders:</p>
+<p>Would do their actual job of ensuring safety of people - Inwards, Outwards</p>
+<p>Pick up the best tech, sustainability practices suited for their lands </p>
+<ul>
+<li>it is not like the world only existed post industrialization.</li>
+</ul>
+<p>But in a $ world</p>
+<p>People make it a business to shove their "superiority" over other </p>
+<ul>
+<li>sometimes physically, sometimes intellectually.</li>
+</ul>
+<p>Their money, their gods, their ways.</p>
+<p>Superior/better/progress?</p>
+<p>or </p>
+<p>"solve et coagula"</p>
+<p>misunderstood by the "smartest" people on planet.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7120642748700897280-jq40">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Another perspective - the "war" ultimately boils down to feelings vs Logic</p>
+<p>...no, it is not just your home 😀 </p>
+<p>The palestine ppl - justifying "feelings" lead "entitlement" since recorded history</p>
+<p>The white ppl - justifying "logic" lead "capitalism"</p>
+<p>the rh- gene monkey neanderthal bankers - using their $$ "intellect" to appropriate influence, morality around the world</p>
+<p>rinse and repeat - wars, depresssions - what changes is "solve" - the tech</p>
+<ul>
+<li>
+<p>engine</p>
+</li>
+<li>
+<p>guns</p>
+</li>
+<li>
+<p>digital...</p>
+</li>
+</ul>
+<p>"Intent" is the same - we know better.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>I think master understand the concept too well, just somewhere in the past someone copulated with an ape -</p>
+<p>https://en.wikipedia.org/wiki/Rh_blood_group_system</p>
+<p>to get a neanderthal gene imprint - aggression is better than respect</p>
+<ul>
+<li>they installed themselves as royalty - nihilism at work</li>
+</ul>
+<p>non rh gene ppl - the "us" were not really "interested" in that kind of thing - violence and all</p>
+<p>Give 2000 years - enough debauchery, enough time to make the whole world a mixed gene pool...</p>
+<p>Evolution - more like "solve et coagula" at work - a superior force would emerge</p>
+<p>The RH- bloodline - the assumed royal ones - they think they are smart enough to stop a natural force - earth (mother), sun(father) - vax, artificial food, uv rays - absolute targeted and intended destruction to cement earthly gods and their lineage on "pure"</p>
+<p>Pure = in breeding.
+</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/white.html">white</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7120251334297104384.html" rel="bookmark" title="Permalink to Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer who served as the lead vocalist of rock band Linkin Park.">Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer who served as the lead vocalist of rock band Linkin Park.</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/rants.html">Rants</a>
+                      on <time datetime="18 Oct 2023">18 Oct 2023</time>
+                </span>
+                <section class="post-content">
+                <p>Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer who served as the lead vocalist of rock band Linkin Park.</p>
+<p>Nothing is a coincidence.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7120251334297104384-Mu9V">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Alfreds wont get it - their masters would.
+</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="./index159.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 160 / 194</span>
-    <a class="pagination-prev" href="./index161.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="./index159.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 160 of 205</span>
+      <a title="Older Posts" class="pagination-prev" href="./index161.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="./theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="./theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

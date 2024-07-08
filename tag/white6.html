@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../tag/white.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,177 +31,531 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="tag-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Tag</span>
+            <span class="archive-count">
+            58 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Tag white</h1>
-        <span class="blog-description">Posts: 54</span>
-          <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">White</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Tag white" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../tag/white5.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 6 / 11</span>
-    <a class="pagination-prev" href="../tag/white7.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../tag/white5.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 6 of 12</span>
+      <a title="Older Posts" class="pagination-prev" href="../tag/white7.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
+
+
+    <article class="post">
         <div class="inner">
-            <header class="post-header">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7185046193587073024.html" rel="bookmark" title="Permalink to Prophecies predictions and cows">Prophecies predictions and cows</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="14 Apr 2024">14 Apr 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Prophecies predictions and cows</p>
+<p>war might ve just been 'ignited'</p>
+<ul>
+<li>
+<p>kind of following ancient prophecy of a holy war</p>
+</li>
+<li>
+<p>by the same jerusalem peeps</p>
+</li>
+</ul>
+<p>Prophecies or a Plan?</p>
+<p>when $ is about to be dethroned?</p>
+<p>seems too convenient </p>
+<ul>
+<li>
+<p>0 bc green peeps are predictable</p>
+</li>
+<li>
+<p>white peeps just need to provide right 'input' to green virus algo</p>
+</li>
+<li>
+<p>the output of jih@d - the holy war against kaafir is just too predictable</p>
+</li>
+</ul>
+<p>Change of money - is not easy</p>
+<p>war </p>
+<ul>
+<li>seems like a time proven concept to cause permanent changes</li>
+</ul>
+<p>permanent need of a 'hero'</p>
+<ul>
+<li>religions - with an inbuilt 'purpose' - would always lead to a war</li>
+</ul>
+<p>Brit master - the knights of girls frocks - the 33 rite 1s </p>
+<p>they are smart.</p>
+<p>all said and done </p>
+<ul>
+<li>
+<p>oil and money - thats what would remain after a 'war'</p>
+</li>
+<li>
+<p>need for 'leaders'</p>
+</li>
+</ul>
+<p>thats the real 'war' - common sense.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7185046193587073024-w9sn">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/green.html">green</a><a href="../tag/white.html">white</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7183265781466476544.html" rel="bookmark" title="Permalink to Oppenheimer - the genius who appropriated 'Shiva' in plain sight">Oppenheimer - the genius who appropriated 'Shiva' in plain sight</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="09 Apr 2024">09 Apr 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Oppenheimer - the genius who appropriated 'Shiva' in plain sight</p>
+<ul>
+<li>
+<p>to portray him as God of Destruction</p>
+</li>
+<li>
+<p>to the whole world</p>
+</li>
+<li>
+<p>a hack who couldnt compute the 'impact'</p>
+</li>
+<li>
+<p>had 0 iq understanding of 'Shiva'</p>
+</li>
+</ul>
+<p>and v have desi peeps singing in praise of 'recognition' of their 'culture' by 1 of the most occultist organizations</p>
+<ul>
+<li>genius of hindus and its sacred 'beholders'</li>
+</ul>
+<p>this is after 'Swastika' - not many white peeps know that hitler inverted it, renamed it</p>
+<ul>
+<li>and confused the whole world with Indias' 'perception' of 'enlightenment' to fund his war.</li>
+</ul>
+<p>yay.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7183265781466476544-_Mgn">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Shiva stories - he has a wife, son and a whole lot of 'stuff'...</p>
+<p>is he really 'God of Destruction' </p>
+<p>or </p>
+<p>Baphomet is?</p>
+<p>u dont have to be a genius to understand the brit intellect</p>
+<p>symbols and inversion seves a dual purpose - it demonized a culture from using it, from spreading it..</p>
+<p>inverting it - demonizing it like hockus pockus</p>
+<p>the amount of damage brits have done to India - is not really even $ computable.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>lets say - in some imaginary metaverse of unkle comics - India droops a b00mb on best neighbour .</p>
+<p>and cites their own Gita to do it - make a bollywood movie about it...</p>
+<p>would the G peeps 'understand'?</p>
+<p>1 Ram mandir is still needing 'justifications' to these 0bc jerusalem peeps...</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>Cillian Murphy - can do no wrong...</p>
+<p>this may be 1 of his few movies i dont want to see - G enius and its melodic/emotional/capitalistic justification</p>
+<p>it is a racial insult on existense of a race - 1 which should not we white washed</p>
+<p>the G enius even forbade nuclear energy - the some good which could ve been expected out of this 'adventure' at best.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/white.html">white</a><a href="../tag/comics.html">comics</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7183254914876207105.html" rel="bookmark" title="Permalink to The 19°–30° culminate with the Degree of Knight of Pentidasses, a spiritual">The 19°–30° culminate with the Degree of Knight of Pentidasses, a spiritual</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="09 Apr 2024">09 Apr 2024</time>
+                </span>
+                <section class="post-content">
+                <p>The 19°–30° culminate with the Degree of Knight of Pentidasses, a spiritual</p>
+<p>knighthood similar to the Knight Kamasutra, and develop the Sunny Leone</p>
+<p>Rite’s myth of Masonic succession from crusading kanadians.</p>
+<p>• The 31° teaches us that it is AI to err. That it is far nobler to never err</p>
+<p>&amp; dont ve to repent than to have never fallen from grace in ones life.</p>
+<p>getting some inspiration .... </p>
+<p>psy op of achievement is quite a carrot...</p>
+<p>keep making blah blah - the sheep/donkey is gonna keep following..</p>
+<p>bringing more peeps in...</p>
+<p>it doesnt even remotely sound like a cult...</p>
+<p>not even like a emotional ponzie scheme ....</p>
+<p>Should borrow some 'sophesticated brit bleh blah' in religion of codeparity?</p>
+<p>anyways....</p>
+<p>here is the originale rite of alfred's ninjaness of 33 years....</p>
+<p>you are warned - this is some ancient very sacred voldemort like peeps - v v powerful - International khiladi+mi5+cia+sacred power = 3d Thanos_abduls.</p>
+<p>original proud and profound text follows...</p>
+<p>The Scottish Rite degrees give insight to the expansion of Masonic</p>
+<p>legends.</p>
+<p>• The Lodge of Perfection, 4°–14°, is concerned with events following</p>
+<p>the murder of Hiram Abiff</p>
+<p>• The 15° and 16° explain the return of Zerubbabel from Babylon to</p>
+<p>rebuild the temple at Jerusalem.</p>
+<p>• The 17° and 18° center around re-instituting the word under the Law</p>
+<p>of Love as taught by Jesus and other religious reformers.</p>
+<p>• The 19°–30° culminate with the Degree of Knight Kadosh, a spiritual</p>
+<p>knighthood similar to the Knight Templar, and develop the Scottish</p>
+<p>Rite’s myth of Masonic succession from crusading knights.</p>
+<p>• The 31° teaches us that it is human to err. That it is far nobler to sin</p>
+<p>&amp; repent than to have never fallen from grace in ones life.</p>
+<p>• In the 32°, Master of the Royal Secret, the candidate is taught</p>
+<p>equilibrium in the Southern Jurisdiction</p>
+<p>temple at jerusalem...</p>
+<p>why all this comes from jerusalem?</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7183254914876207105-k1at">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>in simple anglish - commit a mistake, than say sorry - it is easy.</p>
+<p>see - even brit masters have abdul like algos...</p>
+<p>same profoundness in running up a atom bomb like a.out</p>
+<p>...will make it sound 'profound' .... like it was 'inevitable'...</p>
+<p>a smaller bomb? wasnt that profound physics wala alfred skilled enough to compute that?</p>
+<p>or the high and mighty needed to use a bomb- atomic 1- it was just the last option..</p>
+<p>emotions milked to justify the same algo - try and then say sorry...doesnt matter the 'collateral' - they aint the knighted frock wearing white peeps of neanderthal monkey gene copulating, not 'happy' in their own land - had to beg/bully - and now make a sob story out of it... - genius of phy - gods.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>i know all this comes from jerusalem - but i dont want to learn the sad story...we have ours - lots of them...</p>
+<p>and this is not jerusalem - gps and all - maps.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/codeparity.html">codeparity</a><a href="../tag/white.html">white</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7181454036460605440.html" rel="bookmark" title="Permalink to Alfreds and 'rite' of 'righteousness'">Alfreds and 'rite' of 'righteousness'</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="04 Apr 2024">04 Apr 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Alfreds and 'rite' of 'righteousness'</p>
+<p>Brit masters - take great pleasure in highlighting hockus pockus of brown/yellow peeps</p>
+<p>It kinda gives them a feel of superiority, an intellectual superiority coupled by pigmentless skin.</p>
+<p>I am all for it, it looks 'entertaining', logic is really secondary when it comes to 0 bc itellect - the brits and related incestory of banker etx</p>
+<p>context - the decry 'kamasutra' like some 'pron book by ppl who dont have to eat'</p>
+<p>=&gt; the book is wrong</p>
+<p>==&gt; the brown peeps focus on kamasutra than 'science'</p>
+<p>===&gt; white peeps know better</p>
+<p>so behold, the grand rite of passage of a lizard </p>
+<ul>
+<li>0 bc intellect and hence state of world.</li>
+</ul>
+<p>https://en.wikipedia.org/wiki/List_of_Masonic_rites</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7181454036460605440-zvSt">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Dhalsim - created or doubled down on image of "India": based on Gandhi 'personna'</p>
+<p>It doesnt represent 1 B ppl - infact the 'costumes' of Gods - Ganesha etx are specially offensive...</p>
+<p>Capcom... or soros or brit intellect - stereotyping with 'fun' - subconsious programming aka stereotypes.</p>
+<p>Stereotypes and making fun of peeps on 'needs' practices etx -brit masters fav game - the toilet paper smart peeps.</p>
+<p>the game can be reversed - we have ai now.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>eyes wide shut, occult eclipse practices which these churches engage in - old ones...</p>
+<p>eye opener to the sheep which believe and fund them.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/white.html">white</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
                 <h2 class="post-title"><a href="../post_7179673411617521664.html" rel="bookmark" title="Permalink to Firmware updates require hard reboots...">Firmware updates require hard reboots...</a>
                 </h2>
                 <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="30 Mar 2024">30 Mar 2024</time>
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="30 Mar 2024">30 Mar 2024</time>
                 </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
+                <section class="post-content">
+                <p>Firmware updates require hard reboots...</p>
+<p>it is a relative term - firmware.</p>
+<p>As a forced analogy - some are bios updates and some are just os updates.</p>
+<p>Since delusions are coming true, then lets risk it ...</p>
+<p>more delusions - its a saturday - gm baldies and all</p>
+<p>lets say a recession thing - is akin to a reboot...</p>
+<ul>
+<li>
+<p>nothing major, happens all the time</p>
+</li>
+<li>
+<p>more alfred s, more recession - rich genius ! monekeys makin 'decision' ...</p>
+</li>
+<li>
+<p>mac fracas, and the unsolvable eternal mystery that is those simple windows...</p>
+</li>
+</ul>
+<p>but billie boi is in india, </p>
+<p>giving gyaan on digitization and its coolness...</p>
+<p>while our pm does what he had done, and will do </p>
+<ul>
+<li>
+<p>gather popularity of white collar</p>
+</li>
+<li>
+<p>rob the billie boi ekdum desi istyle...</p>
+</li>
+<li>
+<p>like he did to who gebros bleh and numerous other..</p>
+</li>
+</ul>
+<p>anyways...</p>
+<p>eclipses - major 1s...</p>
+<p>are akin to 'firmware updates' in delusional unkle's stomped mind...</p>
+<p>its not far...</p>
+<p>signs are there...</p>
+<p>and there seems to be a pattern to this jerusalem intellect era...</p>
+<ul>
+<li>
+<p>they seem to tell - but in inverted form</p>
+</li>
+<li>
+<p>holly/marvel might have more 'science' than 'knowledge'</p>
+</li>
+<li>
+<p>crak-deads end up representing faith/belief than rich</p>
+</li>
+</ul>
+<p>..insta/fb define 'good'...</p>
+<ul>
+<li>kalyuga.</li>
+</ul>
+<p>this eclipse is major...</p>
+<p>if 1 is old enough to remember this series...</p>
+<p>peter and gabrial...</p>
+<p>2 forces...</p>
+<p>eclipse...</p>
+<p>too much sat vibe...</p>
+<p>anyways...weekedns are meant to be 'delusional'...</p>
+<p>we still live in free speech / pre speech crime prevention 'developing/3d' world blah country...what would i know...</p>
+<p>not saying 'superpowers' </p>
+<ul>
+<li>
+<p>hoping and aiming for common sense </p>
+</li>
+<li>
+<p>logic/algos like a 0</p>
+</li>
+</ul>
+<p>....maybe the biggest lure is not to give in to lure...??? 😀</p>
+<p>https://www.imdb.com/title/tt0813715/</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7179673411617521664-FaPl">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>dont ask any java guy - for them , firmware is os, and low level stuff...</p>
+<p>even eclipse classifies as need for them...and they are not wrong here...the 'elegant' namespaces, their keyboard friendly names - autocomplete and absolute disregard for 'shell' - has side effects.</p>
+</blockquote>
                 </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7178642869908385793.html" rel="bookmark" title="Permalink to Purpose">Purpose</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="27 Mar 2024">27 Mar 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7176779109522399232.html" rel="bookmark" title="Permalink to Predicting few baldie.exe algo steps">Predicting few baldie.exe algo steps</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="22 Mar 2024">22 Mar 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7175000148324888576.html" rel="bookmark" title="Permalink to The sudden decline of 'brokers'">The sudden decline of 'brokers'</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="17 Mar 2024">17 Mar 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7172344227987746816.html" rel="bookmark" title="Permalink to Progress - sustainability etc...">Progress - sustainability etc...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="10 Mar 2024">10 Mar 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/white.html">white</a><a href="../tag/baldie.html">baldie</a><a href="../tag/bleh.html">bleh</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../tag/white5.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 6 / 11</span>
-    <a class="pagination-prev" href="../tag/white7.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../tag/white5.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 6 of 12</span>
+      <a title="Older Posts" class="pagination-prev" href="../tag/white7.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

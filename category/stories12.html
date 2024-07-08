@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../category/stories.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,177 +31,503 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li class="nav-stories active" role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li class="nav-stories active" role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Category</span>
+            <span class="archive-count">
+            400 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Category stories</h1>
-        <span class="blog-description">Posts: 346</span>
-            <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">Stories</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Category stories" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/stories11.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 12 / 70</span>
-    <a class="pagination-prev" href="../category/stories13.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/stories11.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 12 of 80</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/stories13.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7200226698645151744.html" rel="bookmark" title="Permalink to this is why i really dont like dei">this is why i really dont like dei</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="26 May 2024">26 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7200216784744955904.html" rel="bookmark" title="Permalink to Money, choices and physical health...">Money, choices and physical health...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="26 May 2024">26 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7200028209055191041.html" rel="bookmark" title="Permalink to How would this get 'approval' in an desi alfred ruled google?">How would this get 'approval' in an desi alfred ruled google?</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 May 2024">25 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7200021053400571904.html" rel="bookmark" title="Permalink to The hack in all this 'sacred knowledge'...">The hack in all this 'sacred knowledge'...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 May 2024">25 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7200013724194127872.html" rel="bookmark" title="Permalink to Pappu perspective of baldie worship">Pappu perspective of baldie worship</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 May 2024">25 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7202420000102510592.html" rel="bookmark" title="Permalink to SEO hidden params....were leaked...">SEO hidden params....were leaked...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/stories.html">Stories</a>
+                      on <time datetime="01 Jun 2024">01 Jun 2024</time>
+                </span>
+                <section class="post-content">
+                <p>SEO hidden params....were leaked...</p>
+<p>'manual' prioritization of 'search results' is logical...</p>
+<p>it shows...</p>
+<p>and it also shows why the 'index' is shorter and biased...</p>
+<p>https://youtu.be/XNQhDl4a9Ko?t=158</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7202420000102510592-MWw3">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>maybe why 'ashish tanwar' would never be searchable on google...</p>
+<p>i know my way around...it would be.. 😀 </p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/ashish.html">ashish</a><a href="../tag/google.html">google</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7202370041336504320.html" rel="bookmark" title="Permalink to Kids - make a better you">Kids - make a better you</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/stories.html">Stories</a>
+                      on <time datetime="31 May 2024">31 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Kids - make a better you</p>
+<p>you may be 🙄  about it</p>
+<p>or 🙂 :(...</p>
+<p>but at the end...</p>
+<p>it needs to be done.</p>
+<p>My niece....</p>
+<p>trained me to be a father...</p>
+<p>she was different...</p>
+<p>she was meant to be....</p>
+<p>in some ways...we know each other...</p>
+<p>i got her things which i lacked or wished....</p>
+<p>and she really enjoyed them....</p>
+<p>became good at it....</p>
+<p>amazingly good....</p>
+<p>she genuinely 'defeated' me - in games.</p>
+<p>I saw her as a better me....</p>
+<p>a perfect 1....</p>
+<p>an unkle - or just a sarcastic older brother...</p>
+<p>She relieved what i lived...a part of it....</p>
+<p>with same patterns of 'parenting'....repeating....</p>
+<p>her trauma, being healed with 'love bombing'.....</p>
+<p>i saw the fault....her hack....</p>
+<p>...</p>
+<p>she saw me lose...</p>
+<p>year after year.....</p>
+<p>I was a real father then....</p>
+<p>i could not lose....</p>
+<p>for a daughter thats not mine...but 'feels' mine....</p>
+<p>and a son thats mine...but 'feels' owned....</p>
+<p>hence this pre-empting of bleah blah...</p>
+<p>and sharing few 'principles of 0'....</p>
+<p>coz when it hits....these kids of mine....</p>
+<p>should take it better....</p>
+<p>and create better....</p>
+<p>they were born - better. In love, in intent and purpose.</p>
+<p>the motivation </p>
+<ul>
+<li>of an unkle.</li>
+</ul>
+<p><em><a href="https://www.linkedin.com/posts/activity-7202370041336504320-l6Qs">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>i hope the 'picture' is coming together....</p>
+<p>any kid...should not end up being a veronica/amit - unless s/he wants to be..</p>
+<p>not tools of baldies - of religion, money or fame...</p>
+<p>thats the big goal...</p>
+<p>the purpose of 'sustainability'....</p>
+<p>which cannot be achieved... if same ol 90s baldies....gatekeep their way..</p>
+<p>it is bigger than their ego.
+</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>maybe...u dint get deadpool 2 either... 😀 </p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/MNB8XNFLRcs'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span></p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/veronica.html">veronica</a><a href="../tag/amit.html">amit</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7202330796030894082.html" rel="bookmark" title="Permalink to It is 'hot' and 'happening' alkuhulic weekend...">It is 'hot' and 'happening' alkuhulic weekend...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/stories.html">Stories</a>
+                      on <time datetime="31 May 2024">31 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>It is 'hot' and 'happening' alkuhulic weekend...</p>
+<p>and i just found an old hdd with lots of mp3....</p>
+<p>gAmit : needs all the 'help' to woo gVeronica...</p>
+<p>and gAshish...will do his "dobbie" duty...</p>
+<p>a gAmit recommendation </p>
+<ul>
+<li>which combined iq of his ancestors would not able able to google...</li>
+</ul>
+<p>unkle_comics</p>
+<p>Cheers!!! - 2 days of 'nice'!!</p>
+<p>https://lnkd.in/gF5TNKkK</p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/YE_qSuTq-uM'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span></p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7202330796030894082-hMIE">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/google.html">google</a><a href="../tag/comics.html">comics</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7202193361506611200.html" rel="bookmark" title="Permalink to I think it was the 'laughs'..">I think it was the 'laughs'..</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/stories.html">Stories</a>
+                      on <time datetime="31 May 2024">31 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>I think it was the 'laughs'..</p>
+<p>..which she could not 'hide'...</p>
+<p>in meets...</p>
+<p>in internal bleh...</p>
+<p>when i kinda would ask an 'unanswerable' question to sigma..</p>
+<p>gmeets - are kinda awesome...</p>
+<p>i used to follow her up, to supplement 'tech' stuff</p>
+<p>arabic to amit, but she listened..</p>
+<p>and amit 'watched' her...</p>
+<p>the eyes...giving away the 'focus'...</p>
+<p>sometimes...she ll try to help - mouth it..</p>
+<p>and most times...</p>
+<p>gAmit kinda went on a sigma 'monologue' of strategie and names dropping of inportant people and 'steps'</p>
+<p>...all high tech iphone sales istyle!!</p>
+<p>oh we both listened...waiting to undo the poker face...</p>
+<p>but she couldnt help the 'smiles' 😀</p>
+<p>or wits..</p>
+<p>and intonation...</p>
+<p>something similar happened before a big meet!!</p>
+<p>i was kinda told a day before</p>
+<ul>
+<li>
+<p>by 'concerned peopleops betti'</p>
+</li>
+<li>
+<p>"there is no need for you to - worry"</p>
+</li>
+</ul>
+<p>she tried to be real 'googley' about it..</p>
+<ul>
+<li>i just bowled her back - 'how would u know? u ever did engineering'? 😂</li>
+</ul>
+<p>the gVeronica was kinda 'nervous'..needed dobbie to be there.</p>
+<p>this was important..</p>
+<p>so gAmit calls in a "strat/role play kinda" gMeet..</p>
+<p>............................................................................</p>
+<p>we did the deck - all nice and prim prom..</p>
+<p>she presented that...in this gMeet..</p>
+<p>with gAmit...acting all sensei with industry lead pappus...</p>
+<p>doing the sensei shtick - of rearranging 'slides' on strategie !!</p>
+<p>order -</p>
+<p>sigma leads - gAmit is afterall pretty to men!! too</p>
+<p>Industry lead pappu - to back it up...</p>
+<p>then 'regional lead pappu' - gveronicas' inter boss</p>
+<p>and then my "lead"</p>
+<ul>
+<li>the original orakle fish of punjaabi kinds...cheap lolipops of names and well sorries!</li>
+</ul>
+<p>..</p>
+<p>gVeronica - was to lead intos...</p>
+<p>i was a watcher..</p>
+<p>who was not to be 'directly addressed' to ...</p>
+<p>royality...and dobby...</p>
+<p>..............................................</p>
+<p>this meet was off...i sensed that...after doing some typical font stuff.</p>
+<p>gVeronica chimed in....</p>
+<p>just to check in....</p>
+<p>maybe to check the feels..</p>
+<p>i dint say much...</p>
+<p>the next meet happened...</p>
+<p>and she kinda 'cried' after it...couldnt explain it...</p>
+<p>i dint know...</p>
+<p>i knew...but i dint...</p>
+<p>i couldnt 😐  her career and choice - were too real..</p>
+<p>and i was clearly 'delusional' - i wanted to check 😁</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7202193361506611200-tOI6">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>gAshish dint realize the seriousness or gGravitas of it...</p>
+<p>till she kinda doubled on with the 'creep' and other 'nice' things to make life with gAmit or whatever corp ladder..success happened..</p>
+<p>gAshish had work...too much stuff..well - jobless and a hand which barely works..</p>
+<p>this rich peeps complicated stuff...never made sense to dobbie..</p>
+<p>dobbie works - for food...and kid...and dogs...not that 'prime' class 😁 </p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>these stories - imaginary 1s ...</p>
+<p>are a way to finish the 'stack'...</p>
+<p>it helps...journaling is a very effective way to check self bias...</p>
+<p>for paw - it became compulsory...i dint know i was liked that much 🤣 </p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/veronica.html">veronica</a><a href="../tag/amit.html">amit</a><a href="../tag/google.html">google</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7202170873666052096.html" rel="bookmark" title="Permalink to helping out gAmit : an initiative of #uncle_comics 'development'">helping out gAmit : an initiative of #uncle_comics 'development'</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/stories.html">Stories</a>
+                      on <time datetime="31 May 2024">31 May 2024</time>
+                </span>
+                <section class="post-content">
+                <p>helping out gAmit : an initiative of uncle_comics 'development'</p>
+<p>gAmit s 'feels' - deserve to be 'felt'</p>
+<p>...</p>
+<p>no judgment, feels are feels...</p>
+<p>sigma feels - awesome...</p>
+<p>words fail to describe it...</p>
+<p>yet music succeeds...</p>
+<p>helping gAmit ...</p>
+<p>or ??</p>
+<p>😁 </p>
+<p>gAmit is 'genius' - he knows!!</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7202170873666052096-aAJ8">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>this was just 'too close' for gAmit...</p>
+<p>this daily googley thing....gotta stop it...</p>
+<p>i will.... just that coffee and random playlist of ancient times...</p>
+<p>is awesome...</p>
+<p>bruh be bruhs...gAmit is awesome.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>gVeronica - have a sense of 'humor'...</p>
+<p>i knew gVeronica - frens stuff...</p>
+<p>i dint have any sigma leverage over 'her'...</p>
+<p>she is 'nice' - need to help with eat pray love thing...so gAmit feels better!!</p>
+<ul>
+<li>true true! 🤣 </li>
+</ul>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>i think this doesnt 'work' for gAmit...</p>
+<p>he is more like 'pathaan' of kkkk kiran or </p>
+<p>d.</p>
+<p>d..</p>
+<p>d...</p>
+<p>dastak or kiran 😂 </p>
+<p>...</p>
+<p>morale - i ll own you,  your yes/no doesnt matter - a typical sigma thing!!</p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/n_oP9Onj0r0'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span></p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/google.html">google</a><a href="../tag/googley.html">googley</a><a href="../tag/comics.html">comics</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/stories11.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 12 / 70</span>
-    <a class="pagination-prev" href="../category/stories13.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/stories11.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 12 of 80</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/stories13.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

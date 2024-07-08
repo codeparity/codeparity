@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../tag/blah.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,177 +31,584 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="tag-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Tag</span>
+            <span class="archive-count">
+            165 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Tag blah</h1>
-        <span class="blog-description">Posts: 156</span>
-          <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">Blah</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Tag blah" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../tag/blah19.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 20 / 32</span>
-    <a class="pagination-prev" href="../tag/blah21.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../tag/blah19.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 20 of 33</span>
+      <a title="Older Posts" class="pagination-prev" href="../tag/blah21.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168500125797994496.html" rel="bookmark" title="Permalink to Vegan Vegetarian and other brit nonsensical blah">Vegan Vegetarian and other brit nonsensical blah</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="28 Feb 2024">28 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168309650348593152.html" rel="bookmark" title="Permalink to Salt">Salt</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="27 Feb 2024">27 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168180106736193536.html" rel="bookmark" title="Permalink to This thing (paw, its makin), words->.">This thing (paw, its makin), words->.</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="27 Feb 2024">27 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168128587613556736.html" rel="bookmark" title="Permalink to An ode to the dead lizard - the lizardie baldie rothschild..">An ode to the dead lizard - the lizardie baldie rothschild..</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="27 Feb 2024">27 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7167345285617106944.html" rel="bookmark" title="Permalink to Global "Pentidass" Phenomena = 'we are smart peeps' = the wefs 'intellect' gang">Global "Pentidass" Phenomena = 'we are smart peeps' = the wefs 'intellect' gang</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 Feb 2024">25 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7172531320508669952.html" rel="bookmark" title="Permalink to Judgement">Judgement</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="10 Mar 2024">10 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Judgement</p>
+<p>the concept and its 3d implications</p>
+<p>Judging 'anyone' for anything...</p>
+<p>seems like fav pastime of peeps - the cool 1s.</p>
+<p>I am about cpu cycles and time...</p>
+<p>the whole exercise seems 'waste' of resources.</p>
+<p>only iff ....there is a 'purpose' and a 'prep'...</p>
+<p>not the path... just a compass...</p>
+<p>but 'intellect' of society - the global 1 - G types..</p>
+<p>seems to be all about judgement...an opinion of sorts...</p>
+<p>if 1 may even not consider 'cpu cycles'/time as 'life',</p>
+<p>even then...</p>
+<p>isnt is just a self bias?</p>
+<ul>
+<li>just self reflection of 1s' habitus?</li>
+</ul>
+<p>the 3d 'manipulation' of justice - the 3d gods which yield this holy power...</p>
+<p>...are they even 'aware' of 'self- bias'?</p>
+<ul>
+<li>
+<p>or the education/training decides it?</p>
+</li>
+<li>
+<p>or is it 'on the job' thing?</p>
+</li>
+</ul>
+<p>diversity maybe?</p>
+<p>i dont know - i dont really agree with wef peeps approach and defination of most terms..</p>
+<p>their objectives change...so do their suits and faces</p>
+<p>intent stays the same - control by indoctrination.</p>
+<p>😀 </p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7172531320508669952-evZs">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>sigma leader - the protytype psy/op and its implications..</p>
+<p>leader is a kinda sheep in crop world - $ world</p>
+<p>has to have cool 'cats' - the cars veronicas and the followers..</p>
+<p>it is kinda self destructive - to yield this title and not being 'it'...</p>
+<p>$ cycles, corp cycles and 'perception' cycles...</p>
+<p>wiseness - knowing this pattern...but then...wee all likey g_blue_pills no?</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>paw being favu of many peeps for 'judgement'...</p>
+<p>i never had time to counter 'judgement' of cool peeps...</p>
+<p>always had too much work...</p>
+<p>life is simple...work hard till you feel sleepy...1 meal a day thing ..makes it happen..</p>
+<p>delusions - the 3 meal a day - the mini micro meal blah bleu is just capitalistic 'knowledge' in a metaverse where a doctor becomes $ family...he being the holy father - cureth as your $ allows - rest its upto looord.</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>this concept - is extremely important and highly manipulated..</p>
+<p>for eg - CNDA - the 'misinformation' bill/law thing...</p>
+<p>isnt it CN++?</p>
+<p>same in AU...</p>
+<p>i am not being preachy...the 3d implications  - is 1 even a god of his own 'property' - the land, the $ investments..</p>
+<p>the answer - would be no</p>
+<p>lease - mortgague, by laws etc...</p>
+<p>democraxy - seems quite 'unbalanced' if 1 views from this 'gestalt'...</p>
+<p>the proud saffron cheetah bandwagon - a Q</p>
+<ul>
+<li>
+<p>the 'process' remains the same</p>
+</li>
+<li>
+<p>the 'leader' is new()</p>
+</li>
+</ul>
+<p>muggers - quality and its management has real life consequences - politics is just another use case.</p>
+<p>2 party democraxy - is not really anything, but sanity till the leader is sane...</p>
+<p>else its is just as fickle as $ </p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/veronica.html">veronica</a><a href="../tag/blah.html">blah</a><a href="../tag/bleu.html">bleu</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7171394808794533888.html" rel="bookmark" title="Permalink to Virus - a pattern ?">Virus - a pattern ?</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="07 Mar 2024">07 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Virus - a pattern ?</p>
+<p>a recursive algo - uncontrollable till the 'exit'|'pause' condition - the virus' lifecycle/nature/intent.</p>
+<p>An extreme virus doesn't establish a parity/balance with the host</p>
+<p>all viruses of all kinds - have the above characteristics</p>
+<p>sometimes, the existence of virus is symbiotic to the host, and sometime it becomes symbiotic as a dependency</p>
+<ul>
+<li>
+<p>till a 'trigger' condition</p>
+</li>
+<li>
+<p>extraction is painful, slow</p>
+</li>
+<li>
+<p>may even have consequences - collateral damage - loss of data/life/resources.</p>
+</li>
+</ul>
+<p>Symbiotic viruses hide - as need, maybe even dependency.</p>
+<ul>
+<li>the illusion of 'control' is with the owner</li>
+</ul>
+<p>Lets apply these characteristics/properties with some 'invisible' intellectual viruses</p>
+<p>Idea viruses</p>
+<p>Tech companies</p>
+<p>G - android/smart tv - more e-waste then ever, with privacy--</p>
+<p>Fbook - who uses it ?</p>
+<p>Tesla - 'preety' 'reliable' 'smart' cars by iron-man (L)</p>
+<p>MS - the billie boi is all sane and progress++</p>
+<p>Progress</p>
+<p>WEF WHO and UN** </p>
+<p>Existence/dependency viruses</p>
+<p>global supply 'chain/dependency'</p>
+<p>If 1 uses this gestalt - somethings would become apparent..</p>
+<p>judiciary is a virus</p>
+<p>religion</p>
+<p>$ med</p>
+<p>$ insurance</p>
+<p>$ patents</p>
+<p>a virus 'destroys' the 'host' - at variable rate...</p>
+<p>a smart virus hides in pure sight...</p>
+<p>thats all that can be said...</p>
+<p>thats all that needs to be said</p>
+<p>i was talking about computer viruses...rest all is kinda 'typo'</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7171394808794533888-VhQ8">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>real world algos - the ever 'nice' bettis/veronicas ...their progress and self sufficiency and best daughter, leader, alumni, man , father and all - the 1</p>
+<p>as not decided by a soros - a model male... 🤣 </p>
+<p>i say go for it...take those all 'nice' peeps along...</p>
+<p>insurance - the retirement - the 'nice' blah blah...</p>
+<p>is not really the burdensome and reoccurring pattern of generational scars - the parent ends up inflicting on the kid - a modern version of it..</p>
+<p>kinda stuck on relative scale and trauma of 'success' ...complex 1..</p>
+<p>see- u just cant model the ai - the fem is just too 'imaginary' number to 'approximate' 😀 </p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>in $ terms...</p>
+<p>in 1971 = abolition of gold standard..</p>
+<p>some imaginary force made the fems working in offices 'cool'..</p>
+<p>it wasnt the 'inflation' at all...</p>
+<p>now - a modern version of it ...</p>
+<p>works on various levels..</p>
+<p>depopulation..</p>
+<p>a new divide() - global 1</p>
+<p>fame, glamour and $</p>
+<ul>
+<li>the trifecta of G existence...</li>
+</ul>
+<p>it is all too 'perfect'...</p>
+<p>maybe it is ...</p>
+<p>isnt that the ultimate 'choice' - the serpent...</p>
+<p>more like a spiral of choices which follow...</p>
+<p>truth/perception becomes blurred - ego is truth - the sheep validate it.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/veronica.html">veronica</a><a href="../tag/blah.html">blah</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7170679569212006400.html" rel="bookmark" title="Permalink to The penti-dass-ness of logic">The penti-dass-ness of logic</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/religion.html">Religion</a>
+                      on <time datetime="05 Mar 2024">05 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>The penti-dass-ness of logic</p>
+<p>The pentidass class - created a 'symbology'</p>
+<p>a 'genius' 1</p>
+<p>-pentidass class, obviously since they 'thought' of this 'symbology' of body = society...</p>
+<p>=&gt; they are the 'head', the 'intellect', hence decision makers</p>
+<p>-the arms - the 'do' as decided by 'head'</p>
+<p>=&gt; the 'fighter'/worker class - the soldiers nepotism</p>
+<p>-the kamasutra klass </p>
+<p>=&gt; well, the head needs its 'pleasures' for all that 'decision' makin - so yay</p>
+<p>-the legs or whatever class</p>
+<p>=&gt;&gt; the workers - the nihilistic layer 1s</p>
+<ul>
+<li>they do all the 'needed' stuff..dirty/clean, who cares - its their 'duty'</li>
+</ul>
+<p>Oh they take it real seriously.</p>
+<p>The ka experiment - the heads need to be 'safe', they expect 'organs' to do the 'protectin' and all</p>
+<ul>
+<li>the sacred code of this symbology - is too be adhered.</li>
+</ul>
+<p>no one cared, so we will tell the sob story, pine for a green card and whatever giz blah of 'survivorship' we all can conjure up..</p>
+<p>=&gt; green card, cio, all bakwaas alfred jobs = we 'deserveth' it</p>
+<p>==&gt; rest all - the 'body' needs to be formed again</p>
+<p>===&gt; 'guilt jaap' - make a movie by a 'feely' - it sell to &lt;70 'feely' religious booted junta</p>
+<p>yay, we are the 'head' again..</p>
+<p>too bad, u again got it all wrong...</p>
+<p>this time, abduls are different</p>
+<p>-pentidass strat = as obsolete/functional as ever - fixed in pattern,head.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7170679569212006400-sK95">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>lots of 'victim' likeable stories in future...</p>
+<p>if peeps are still not getting it...</p>
+<p>every era challenges 'knowledge' and logic..</p>
+<p>call it church vs illuminati.. or whatever...</p>
+<p>we are in this yugas war - common sense vs invisible indoctrination..</p>
+<p>an era where a defender is guilted for an aggressors 'genius' and 'will'...</p>
+<p>akuma doesnt care. stick to gita - you only rake up more victimness - more bravery to compensate for ..</p>
+<p>a spiral of ancestral weakness - glorified by rats.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>global wala pentidasses - the humma humma bois</p>
+<p>knowlege = alfred waali</p>
+<p>religion = manu wala</p>
+<p>chakras = only - scaral 1 = no intellectual creativity, only 'bhabhi' 'bong' kinds..</p>
+<p>result - nobodies - nowhere/anywhere - just secretly sad pining enunchie rolls.</p>
+<p>they deserve an akuma and more.</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>my lurv for 'hinduism' or incestralism or indian nepotism...</p>
+<p>saffron/sun - doesnt belong to anyone...</p>
+<p>father to all - gives a body to all.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/green.html">green</a><a href="../tag/blah.html">blah</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7169850037529722880.html" rel="bookmark" title="Permalink to Hacking of Humans">Hacking of Humans</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="03 Mar 2024">03 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Hacking of Humans</p>
+<p>I/O</p>
+<p>Sight</p>
+<p>Hear</p>
+<p>Smell</p>
+<p>Touch</p>
+<p>Purpose</p>
+<p>Dont know</p>
+<p>Make something up - lets call it 'religion' and 'struggles of race'</p>
+<ul>
+<li>ie top 'vector' </li>
+</ul>
+<p>But new Purpose() is not so 27x7 'dopamine' source</p>
+<p>Make up a needy routine - education, progress and cause, need - $</p>
+<p>=&gt; Life is a 0 sum game</p>
+<p>==&gt; struggle</p>
+<p>===&gt; religion/history/bleh blah is the 'savior'</p>
+<p>Scaling this 'i/o' overload - ddos of 'sensory' i/o</p>
+<p>=&gt; Instant rush</p>
+<p>==&gt; no 'purpose' task probability</p>
+<p>===&gt; 'society'/'success'/'status' etc - the alfredness</p>
+<p>$ and its forms - material and 'perception'</p>
+<p>Global 'makes' is 'smart' - $</p>
+<p>The 'international' clout - every 'educated' peeps dream</p>
+<ul>
+<li>
+<p>compliance</p>
+</li>
+<li>
+<p>via education</p>
+</li>
+<li>
+<p>taxes</p>
+</li>
+<li>
+<p>smiles</p>
+</li>
+<li>
+<p>approval</p>
+</li>
+</ul>
+<p>result</p>
+<p>Instagram</p>
+<p>Twitter</p>
+<p>Facebook</p>
+<p>G</p>
+<p>....all seem 'fixed' - imaginary $$ glorifies the 'invention' and its origins (CIA)</p>
+<p>Then there is zamazon - the nihilistic layer - global need/dependency </p>
+<p>knowledge - boogle </p>
+<p>books - too obsolete, costly, bulky</p>
+<p>peeps - divided and consumed</p>
+<p>Competing in 2.5G version of matrix - likies of different kinds</p>
+<p>Same algo - global</p>
+<p>variables change - intent doesnt</p>
+<p>it is not a 'intelligent' algo - 'pure bluud of bankers' runeth it...</p>
+<p>incestual knowledge - is always 'superior'</p>
+<p>Vatican lib - has a 'purpose' - why create this 'matrix' in 1st place?</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7169850037529722880-uG6M">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>This layer - "purpose of world" / 'humanity needs to do blah' -layer bs..</p>
+<p>there are different layers - artificial ones...local++&gt;global etc</p>
+<p>the real matrix - god 1 - seems quite different - and societies seemed to have achieved it..</p>
+<p>sometimes the answers are not in science, but the force that 'controls' science.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/religion.html">religion</a><a href="../tag/boogle.html">boogle</a><a href="../tag/bleh.html">bleh</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7169510962482401281.html" rel="bookmark" title="Permalink to "Threshold"">"Threshold"</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="02 Mar 2024">02 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>"Threshold"</p>
+<p>1 word to "top up" few g_baldie[] s weekend...</p>
+<p>just in case someone is trying to give up on 'al-kuhul'....</p>
+<p>1 word to describe the 'time' of breaking of a 'will'...</p>
+<p>It is a 'good' weekend for "Akuma"...</p>
+<p>but "dan"s - they remain 'dans' - no amount of guppied </p>
+<ul>
+<li>
+<p>g or no g</p>
+</li>
+<li>
+<p>dei and x inclusive</p>
+</li>
+<li>
+<p>$$, cars, clout</p>
+</li>
+</ul>
+<p>dan 's time has run out.</p>
+<p>The taunts are private, but feels like this-&gt;.</p>
+<p>Dan and Veronicas - always fighting - always winnin 😂 </p>
+<p>a G world!!</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7169510962482401281-14VZ">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Abstract "value" of 0s last 2 pro years...</p>
+<p>100x g_salaries ~ 50+ CR easy </p>
+<p>The real 'value' which these 'brilliant' souls - leaders, G wale are expected to produce - 10x atleast</p>
+<p>So ~500 CR INR in just financial expectations</p>
+<p>then it is the brand - G</p>
+<p>'priceless'</p>
+<p>aka</p>
+<p>'modern kohinoor'...</p>
+<p>delusional works ...</p>
+<p>and thats just the blah bleu part...</p>
+<p>future - thats where the sensei - ness lies.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/baldie.html">baldie</a><a href="../tag/blah.html">blah</a><a href="../tag/bleu.html">bleu</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../tag/blah19.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 20 / 32</span>
-    <a class="pagination-prev" href="../tag/blah21.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../tag/blah19.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 20 of 33</span>
+      <a title="Older Posts" class="pagination-prev" href="../tag/blah21.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

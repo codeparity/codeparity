@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../category/rants.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,177 +31,439 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li class="nav-rants active" role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li class="nav-rants active" role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Category</span>
+            <span class="archive-count">
+            389 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Category rants</h1>
-        <span class="blog-description">Posts: 406</span>
-            <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">Rants</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Category rants" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/rants31.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 32 / 82</span>
-    <a class="pagination-prev" href="../category/rants33.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/rants31.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 32 of 78</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/rants33.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7169017267026939906.html" rel="bookmark" title="Permalink to oldie rockstars can only sing to 'destroy the system'">oldie rockstars can only sing to 'destroy the system'</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="29 Feb 2024">29 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7169008333708886016.html" rel="bookmark" title="Permalink to Delusional Unkle talks : Demons and their forms on earth">Delusional Unkle talks : Demons and their forms on earth</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="29 Feb 2024">29 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168997133226889216.html" rel="bookmark" title="Permalink to Few ideas for 0s and society in general">Few ideas for 0s and society in general</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="29 Feb 2024">29 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168976314882777088.html" rel="bookmark" title="Permalink to The blow has to be good - a fatality.">The blow has to be good - a fatality.</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="29 Feb 2024">29 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7168697443004473344.html" rel="bookmark" title="Permalink to "Strong worded letter"">"Strong worded letter"</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="29 Feb 2024">29 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7172105366871236608.html" rel="bookmark" title="Permalink to aye - i got it all figured out...">aye - i got it all figured out...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="09 Mar 2024">09 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>aye - i got it all figured out...</p>
+<p>the 'strategei' .... </p>
+<p>... the vaaarruuusss...</p>
+<p>it would be boring...</p>
+<p>like it has been for last few years...</p>
+<p>even i am a pattern...</p>
+<p>unkle pattern....obsolete kinds...</p>
+<p>weird kinds...</p>
+<p>so 'execution' has to be weird too...</p>
+<p>jokery strategie...</p>
+<p>remember - a joker is a true 0...</p>
+<p>he designs...</p>
+<p>bateman only counters...</p>
+<p>with all his giz bleh family bs...</p>
+<p>aint that the true magick creator? 😮 </p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7172105366871236608-dS54">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>only in the depth of darkness - you discover the truth</p>
+<p>-a snk game intro</p>
+<p>plans - the use of it...and plan of it...</p>
+<p>a series of choices...</p>
+<p>a tree...</p>
+<p>it is an illusion - and a paradox of sorts....</p>
+<p>..the delusions...if they start becoming 'real'...</p>
+<p>then... what is 'real'?
+</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>plans....jejejehehehjejehehe...
+</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/bleh.html">bleh</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7171613663601123329.html" rel="bookmark" title="Permalink to The cosmic runtime inputs and their 'magic' on 'earth' -> 'science' & $">The cosmic runtime inputs and their 'magic' on 'earth' -> 'science' & $</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="08 Mar 2024">08 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>The cosmic runtime inputs and their 'magic' on 'earth' -&gt; 'science' &amp; $</p>
+<p>Stefaan bhai - greek god of thunder and lightening</p>
+<p>establishes a logical link between earth's frequencies and its effects </p>
+<ul>
+<li>
+<p>environment</p>
+</li>
+<li>
+<p>animals</p>
+</li>
+<li>
+<p>nature</p>
+</li>
+<li>
+<p>humans</p>
+</li>
+<li>
+<p>brains</p>
+</li>
+</ul>
+<p>He even goes out further to spot the 'anomalies' </p>
+<p>(Solar maximus incoming):</p>
+<p>https://lnkd.in/gzxWC8AC</p>
+<p>Haarp doesnt exists - its just a harp to please 'weather gods'</p>
+<p>https://lnkd.in/gZ2as9cd</p>
+<p>The 'yoke' chaos + eclipse + eco + brit masters and their gods (baphomet and all) </p>
+<ul>
+<li>
+<p>'internet'</p>
+</li>
+<li>
+<p>'space "warfare"'</p>
+</li>
+<li>
+<p>$ bets - forecasts and the pattern of $ gods retaining 'godhood' </p>
+</li>
+<li>
+<p>at the end of all of it</p>
+</li>
+</ul>
+<p>It is an 'opportunity' - like every challenge is..</p>
+<p>challenging 'times' - chance to restore 'status-quo'?</p>
+<p>2024 - execution at a G scale.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7171613663601123329-oSXo">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>assuming - the greek/egyptian gods were advanced beings...</p>
+<p>they ll know how to use music - as it is all in vedas - aum being a special sound..</p>
+<p>i ll say the gods of old times used harp to change environment...the brit masters are smart - they likey 'toungue in cheek'..</p>
+<p>a real toldyaso on 'generations' / nations</p>
+<ul>
+<li>few lizardie neanderthal monkey incesty hybrids...</li>
+</ul>
+<p>who think they can mock and 'do'..</p>
+<p>matrix is a mocumentary..</p>
+<p>they know and sayeth that ppl are going to be pluggen into neurakink...</p>
+<p>1 way or another..</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>chaos = more natural disasters - coupled by '3d gods' made 'perceptions'</p>
+<p>climate change</p>
+<p>mass sacrifice of humans/animals/nature - all by 'coincidence' - obviously</p>
+<p>texas - the usa of world cant seem to ever control wildfires - with all that ironman tech ..?
+</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>for java peeps : loosh = sadness</p>
+<p>yes - there is a reason you chose java- sadness</p>
+<ul>
+<li>it was mass sold as 'engineering' 😂 </li>
+</ul>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7171110644413263872.html" rel="bookmark" title="Permalink to Progress ...">Progress ...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="06 Mar 2024">06 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Progress ...</p>
+<ul>
+<li>child labor</li>
+</ul>
+<p>and the brit world gives morality lessons to 'developing' world..</p>
+<p>https://www.nasdaq.com/articles/us-court-sides-with-apple-tesla-other-tech-companies-over-child-labor-in-africa</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7171110644413263872-J6Eo">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7171082877541998593.html" rel="bookmark" title="Permalink to big/huge toilet paper rolls - fresh pressed : as texturized as you ll like it">big/huge toilet paper rolls - fresh pressed : as texturized as you ll like it</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="06 Mar 2024">06 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>big/huge toilet paper rolls - fresh pressed : as texturized as you ll like it</p>
+<ul>
+<li>
+<p>everyday with a smile</p>
+</li>
+<li>
+<p>just rs 3-5 max</p>
+</li>
+</ul>
+<p>thats a steal by any alfreds wallmart cart - even by the 'weight' algo they secretly cant seem to give up on.</p>
+<ul>
+<li>
+<p>steal</p>
+</li>
+<li>
+<p>environment friendly too - recyclable and all</p>
+</li>
+</ul>
+<p>just dont smudge it with 'ink' .</p>
+<p>suddenly the 'price' would be 'higher' </p>
+<p>like rs 60+...</p>
+<p>economics?</p>
+<p>or 'paid knowledge'?</p>
+<p>or gods in making, as decided by gods of knowledge?</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7171082877541998593-fZZA">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7170863620929601536.html" rel="bookmark" title="Permalink to just doing the Shukracharya bit for these times...">just doing the Shukracharya bit for these times...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/rants.html">Rants</a>
+                      on <time datetime="06 Mar 2024">06 Mar 2024</time>
+                </span>
+                <section class="post-content">
+                <p>just doing the Shukracharya bit for these times...</p>
+<p>ai is the demon, as 'perception' sees it...</p>
+<p>bad as 'society' 'likies' this-&gt;.</p>
+<p>what u gonna do...</p>
+<p>summon the demons...turn them against the  gods </p>
+<ul>
+<li>
+<p>the towers which make them 1</p>
+</li>
+<li>
+<p>judiciary : the always slow and always indebted lords of 'justice' - lords.</p>
+</li>
+<li>
+<p>the all so not so a pattern of pentidassness - the 'right' of society: guilt trip for masses</p>
+</li>
+<li>
+<p>messiahs - the shah ones...1 can doeth no rong..</p>
+</li>
+<li>
+<p>muggers of diff kinds - tool to above, akuma to below - respected policeman, ias and all : they are not this kind</p>
+</li>
+</ul>
+<p>these 'actors' of page 3 glory, are run by page 1 makers...</p>
+<p>the $ makers</p>
+<p>the 40 rs print, yet rs 2 sell : pressed folded doggy toilet paper called news-paper</p>
+<p>the matrix - needs to 'flow'</p>
+<p>from page 1 -&gt; society...</p>
+<p>it has a rythm...</p>
+<p>it has a purpose...</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7170863620929601536-1exI">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="../category/rants31.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 32 / 82</span>
-    <a class="pagination-prev" href="../category/rants33.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="../category/rants31.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 32 of 78</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/rants33.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

@@ -14,18 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="../" rel="canonical" />
+<link href="../category/spark.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,175 +31,434 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    var siteUrl = '..';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
 </head>
-<!-- TODO : Body class -->
-<body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
 
-                  <li role="presentation"><a href="../category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="../category/religion.html">religion</a></li>
-                  <li class="nav-spark active" role="presentation"><a href="../category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="../category/stories.html">stories</a></li>
 
-    </ul>
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+
+      <li role="presentation"><a href="../category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="../category/religion.html"><span>religion</span></a></li>
+      <li class="nav-spark active" role="presentation"><a href="../category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="../category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-            <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+        <div class="archive archive-tag box archive-box">
+          <span class="archive-info">
+            <span class="archive-type">Category</span>
+            <span class="archive-count">
+            28 Posts
             </span>
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
-        </nav>
-        <h1 class="post-title">Category spark</h1>
-        <span class="blog-description">Posts: 25</span>
-            <div class="blog-cover cover" style="background-image: url('../images/logo_cp_rect_white_back.png')">
+          <h2 class="archive-title">Spark</h2>
+        </div>
+
+          <div class="blog-cover cover">
+            <img src="../images/logo_cp_rect_white_back.png" alt="Category spark" />
+          </div>
       </div>
     </header>
-
-  <section id="wrapper">
-    <a class="hidden-close"></a>
 
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <span class="pagination-info">Page 1 / 5</span>
-    <a class="pagination-prev" href="../category/spark2.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <span class="pagination-info">Page 1 of 6</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/spark2.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
+
+
+    <article class="post">
         <div class="inner">
-            <header class="post-header">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7215637393368866816.html" rel="bookmark" title="Permalink to i revisited - this spark and gVeronica 'story'...">i revisited - this spark and gVeronica 'story'...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/spark.html">Spark</a>
+                      on <time datetime="07 Jul 2024">07 Jul 2024</time>
+                </span>
+                <section class="post-content">
+                <p>i revisited - this spark and gVeronica 'story'...</p>
+<p>just make a very subtle point </p>
+<ul>
+<li>
+<p>these metaverses are all consuming</p>
+</li>
+<li>
+<p>built/hacked on insecurities of protagonists</p>
+</li>
+<li>
+<p>$ and its shapes being the true loyality</p>
+</li>
+<li>
+<p>feels are illusion, $ is assured</p>
+</li>
+</ul>
+<p>on this layer, the need/want diminish.</p>
+<p>there is no purpose - just to sustain this $ love = lurv to last</p>
+<p>it becomes a 'purpose' of its own...</p>
+<p>with 2 forked metaverses... the diff becomes a major task</p>
+<p>merging is impossible.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7215637393368866816-dfwv">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/spark.html">spark</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7214383269566431232.html" rel="bookmark" title="Permalink to Self destruction or ignorance of destruction">Self destruction or ignorance of destruction</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/spark.html">Spark</a>
+                      on <time datetime="04 Jul 2024">04 Jul 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Self destruction or ignorance of destruction</p>
+<p>self destruction is letting destruction happen.</p>
+<p>..it may be voluntary or involuntary...</p>
+<p>but self is destroyed.</p>
+<p>eg voluntary self destruction </p>
+<ul>
+<li>donation blood, money, time organ</li>
+</ul>
+<p>or loss </p>
+<ul>
+<li>accidents, money loss, or physical loss </li>
+</ul>
+<p>but i am about the not observed...</p>
+<p>time</p>
+<p>time is created and destroyed</p>
+<p>which in turn leads to a change in matrix/maya.</p>
+<p>cell change, intents change, money balance changes </p>
+<ul>
+<li>% is driven by time...</li>
+</ul>
+<p>and so does a need/want </p>
+<ul>
+<li>to change.</li>
+</ul>
+<p>while this is all 'material' in most aspect...</p>
+<p>some % of its change </p>
+<ul>
+<li>destroys something from conscious to the unconscious</li>
+</ul>
+<p>possibilities or hope : change</p>
+<p>years have the most noticeable impact </p>
+<ul>
+<li>decades seem like a slap in face.</li>
+</ul>
+<p>but then, it is always about the feels.</p>
+<p>..why did this snapshot of nostalgia - makes 1 feel that way...</p>
+<p>something destroyed, something created.</p>
+<p>u ll remember the frames...i ideal 1s...and the delta...of today..</p>
+<p>the good 1s - the wins : the delta of 'achievements'</p>
+<p>those - are the dimensions of 'matrix/maya' which matters to 0s.</p>
+<p>some self discovery - coz we all see our matrix with our gestalt and habitus.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7214383269566431232-oWKM">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>toxic relationships - best example of voluntary - yet ignored self destruction...</p>
+<p>the relatable example - drama peeps : something is always 'happening' - kools : adventure, dinners, birthdays - breakups/marriages/engagement , and my fav : oh : i found the 1 (again++) 😂 </p>
+<p>there is no 1 : unless you know your 1s and 0s - else its just 'ignored voluntary self destruction" - coz time is lost, purpose gets farther and hopes diminishes.</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/idea.html">idea</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="../post_7213661145503604736.html" rel="bookmark" title="Permalink to This was not nicely received...i feel it...">This was not nicely received...i feel it...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/spark.html">Spark</a>
+                      on <time datetime="02 Jul 2024">02 Jul 2024</time>
+                </span>
+                <section class="post-content">
+                <p>This was not nicely received...i feel it...</p>
+<p>feels are relative...</p>
+<p>if some stupid meme - makes a did smiley...</p>
+<p>on some day...</p>
+<p>its worth it...</p>
+<p>coz our sigma - gAmit is the real 'hero'</p>
+<p>😂 </p>
+<p>I think i balanced out the 'sin' of this unintended "hadoken"...</p>
+<p>i said my prayers in adv.. on sunday 😂 </p>
+<p>and i did good - shared some 'nice' ideas to next gen wolfies...</p>
+<p>gives them money, gives them independence...</p>
+<p>so yay - finally a good 'balanced' monday!!</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7213661145503604736-0s53">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/idea.html">idea</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
                 <h2 class="post-title"><a href="../post_7211188738029191168.html" rel="bookmark" title="Permalink to I hope this clarifies idea of Akuma">I hope this clarifies idea of Akuma</a>
                 </h2>
                 <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="25 Jun 2024">25 Jun 2024</time>
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/spark.html">Spark</a>
+                      on <time datetime="25 Jun 2024">25 Jun 2024</time>
                 </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
+                <section class="post-content">
+                <p>I hope this clarifies idea of Akuma</p>
+<p>Akuma values skill / merit above self...</p>
+<p>to the limit that his body/life is inconsequential considering the purpose it represents</p>
+<p>his value system is based on a trade </p>
+<ul>
+<li>
+<p>he ll put his values/skill on the line</p>
+</li>
+<li>
+<p>to put the purpose on 'test' via 'him'</p>
+</li>
+</ul>
+<p>rest - what happens is absolute truth.</p>
+<p>for akuma - he is 10 : a complete being, waiting for a challenger </p>
+<ul>
+<li>a state of 9 in battle</li>
+</ul>
+<p>for him, its is not the challenge, but a purpose.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7211188738029191168-FMYp">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
                 </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/idea.html">idea</a>                    </aside>
+                </div>
             </div>
-        </article>
-        <article class="post">
+        </div>
+    </article>
+
+
+    <article class="post">
         <div class="inner">
-            <header class="post-header">
+            <div class="box post-box">
                 <h2 class="post-title"><a href="../post_7203281052902051840.html" rel="bookmark" title="Permalink to most of the nato masters world">most of the nato masters world</a>
                 </h2>
                 <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="03 Jun 2024">03 Jun 2024</time>
+                    By 
+                        <a class="post-meta-tag" href="../author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="../author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="../category/spark.html">Spark</a>
+                      on <time datetime="03 Jun 2024">03 Jun 2024</time>
                 </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
+                <section class="post-content">
+                <p>most of the nato masters world </p>
+<ul>
+<li>looks down upon peeps who cook</li>
+</ul>
+<p>with desi supply chain and production : being characterised as carbon +ve,</p>
+<p>it is only logical that they depend on 'food' from 3rd world countries...</p>
+<p>non gmo, something good..</p>
+<p>however, this perception of being 'modern' is the real issue...</p>
+<p>food - basics : grains, seeds, eggs etx...</p>
+<p>are cheap and should 'provide' for anyone...</p>
+<p>but being 'developed' - kinda 'rejects' this idea..</p>
+<p>a transformation is taking place...</p>
+<p>80/90s India would be exported to 'developed' world</p>
+<p>with ways of middle class - dining in, prepping food </p>
+<ul>
+<li>becoming prime skills</li>
+</ul>
+<p>a 'reset' - just not the kind soros and wef master anticipited.</p>
+<p>they still think that 'developent' - progress is </p>
+<ul>
+<li>
+<p>neuralink</p>
+</li>
+<li>
+<p>eat zee bugs</p>
+</li>
+<li>
+<p>15 mins cities in 15 min teslas</p>
+</li>
+<li>
+<p>living out in 'metaverse' - lust terror and all</p>
+</li>
+</ul>
+<p>...</p>
+<p>is the future ??</p>
+<p>i think and bet different - we ve lived though it.</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7203281052902051840-QSsZ">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>shops as they existed  - countered 1, with goods hiding behind lock and key - India of 90s...</p>
+<p>same is happening in us and all immigrants welcome world...</p>
+<p>a transformation - with peeps not being 'trusted'...</p>
+<p>and lack of real 'money'...</p>
+<p>15 mins cities/ fake X/worldcoin money - that gets 1 into 15 min cities of numbness.</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>mc donalds burger - being the global norm of 'food'...</p>
+<p>gives a good idea of western intellect..</p>
+<p>a rs 10 burger sold as street snack is yummier and healthier than that burger..</p>
+<p>an example of masters intellect - global.</p>
+<p>to use mcd's progression as 'development' of world...</p>
+<p>gazzab thought process.</p>
+</blockquote>
                 </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7203048214453706752.html" rel="bookmark" title="Permalink to as an old unkle - getting back to coding is another">as an old unkle - getting back to coding is another</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="02 Jun 2024">02 Jun 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7199175579198251008.html" rel="bookmark" title="Permalink to It is like entire countries of gAmits' gVeronicas and their 'spark' 😍">It is like entire countries of gAmits' gVeronicas and their 'spark' 😍</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="23 May 2024">23 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="../post_7193507778831826944.html" rel="bookmark" title="Permalink to A fool's journey - is anything but easy.">A fool's journey - is anything but easy.</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="../author/paw.html">Paw</a>
-                     | <time datetime="07 May 2024">07 May 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="../tag/idea.html">idea</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <span class="pagination-info">Page 1 / 5</span>
-    <a class="pagination-prev" href="../category/spark2.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <span class="pagination-info">Page 1 of 6</span>
+      <a title="Older Posts" class="pagination-prev" href="../category/spark2.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="../theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="../theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>

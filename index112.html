@@ -14,18 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="./" rel="canonical" />
+  <link href="./" rel="canonical" />
+
   <!-- Feed -->
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Code highlight color scheme -->
-      <link href="./theme/css/code_blocks/github.css" rel="stylesheet">
 
-
-    <!-- Custom fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,6 +31,28 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
+  <script>
+    var siteUrl = '.';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
 
 
 
@@ -65,175 +85,414 @@
 }
 </script>
 </head>
-<!-- TODO : Body class -->
+
+
+
+
+
+
+
 <body class="home-template">
 
-<nav id="menu">
-  <a class="close-button">Close</a>
-  <div class="nav-wrapper">
-    <p class="nav-label">Menu</p>
-    <ul>
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
 
-                  <li role="presentation"><a href="./category/rants.html">rants</a></li>
-                  <li role="presentation"><a href="./category/religion.html">religion</a></li>
-                  <li role="presentation"><a href="./category/spark.html">spark</a></li>
-                  <li role="presentation"><a href="./category/stories.html">stories</a></li>
+    <li class="nav-Home active" role="presentation"><a href="/"><span>Home</span></a></li>
 
-    </ul>
+      <li role="presentation"><a href="./category/rants.html"><span>rants</span></a></li>
+      <li role="presentation"><a href="./category/religion.html"><span>religion</span></a></li>
+      <li role="presentation"><a href="./category/spark.html"><span>spark</span></a></li>
+      <li role="presentation"><a href="./category/stories.html"><span>stories</span></a></li>
+</ul>
+<ul class="nav-meta">
+    <li class="nav-twitter"><a aria-label="Twitter" href="PawAshishTanwar" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i>
+    <span>twitter</span>
+    </a></li>
+    <li class="nav-github"><a aria-label="Github" href="codeparity" target="_blank"><i class="icon icon-github" aria-hidden="true"></i>
+    <span>github</span>
+    </a></li>
+    <li class="nav-linkedin"><a aria-label="Linkedin" href="ashishtanwar" target="_blank"><i class="icon icon-linkedin" aria-hidden="true"></i>
+    <span>linkedin</span>
+    </a></li>
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
   </div>
-</nav>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header class="blog-header  has-cover ">
       <div class="inner">
-        <nav id="navigation">
-          <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
-          </span>
-        </nav>
-        <h1 class="blog-name"><a href="./">A quest for balance</a></h1>
-        <span class="blog-description">Codeparity Thoths</span>
+        <div class="box blog-box">
+          <h1 class="blog-name">A quest for balance</h1>
+          <span class="blog-description">Codeparity Thoths</span>
+        </div>
 
-          <div class="blog-cover cover" style="background-image: url('./images/logo_cp_rect_white_back.png')">
+          <div class="blog-cover cover">
+            <img src="./images/logo_cp_rect_white_back.png" alt="A quest for balance" />
+          </div>
       </div>
     </header>
 
 
-  <section id="wrapper">
-    <a class="hidden-close"></a>
-
 <div id="index" class="container">
   <main class="content" role="main">
     <div class="extra-pagination">
-<nav class="pagination" role="pagination">
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="./index111.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 112 / 194</span>
-    <a class="pagination-prev" href="./index113.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="./index111.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 112 of 205</span>
+      <a title="Older Posts" class="pagination-prev" href="./index113.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
     </div>
 
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7159504912244961280.html" rel="bookmark" title="Permalink to Vision and its importance in selecting companies/managers/mentors">Vision and its importance in selecting companies/managers/mentors</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="03 Feb 2024">03 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7159450774186450944.html" rel="bookmark" title="Permalink to Science++, Tech++, Cool++">Science++, Tech++, Cool++</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="03 Feb 2024">03 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7159264598603292672.html" rel="bookmark" title="Permalink to Quantum world, possibilities and the thread which ties it together...">Quantum world, possibilities and the thread which ties it together...</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="03 Feb 2024">03 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7159110040996433920.html" rel="bookmark" title="Permalink to Desi 'leader' 'pioneer' taking a public fall">Desi 'leader' 'pioneer' taking a public fall</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="02 Feb 2024">02 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">
-                <h2 class="post-title"><a href="./post_7158839768158527489.html" rel="bookmark" title="Permalink to the rationale behind this 'high'.....">the rationale behind this 'high'.....</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="./author/ashish-tanwar.html">Ashish Tanwar</a>
-                        <a href="./author/paw.html">Paw</a>
-                     | <time datetime="01 Feb 2024">01 Feb 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        originally posted on linkedin
-                    </p>
-                </section>
-            </div>
-        </article>
 
-<nav class="pagination" role="pagination">
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7166612150365372416.html" rel="bookmark" title="Permalink to ?">?</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/rants.html">Rants</a>
+                      on <time datetime="23 Feb 2024">23 Feb 2024</time>
+                </span>
+                <section class="post-content">
+                <p>? </p>
+<p>to all 'anons'</p>
+<p>How can a stray be right?</p>
+<p>I dint study much?</p>
+<p>I told u 2 years in adv..</p>
+<p>Much is unfolding...</p>
+<p>Mathematical Induction is holding true for a 0..</p>
+<p>Some ??</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7166612150365372416-m3-R">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>2 years in adv </p>
+<ul>
+<li>had to be 'delusional' -&gt; 'flukie' -&gt; ? 😂 </li>
+</ul>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>Purpose.</p>
+<p>1 word to make the world sane... </p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7166571091564412929.html" rel="bookmark" title="Permalink to X flare">X flare</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/rants.html">Rants</a>
+                      on <time datetime="23 Feb 2024">23 Feb 2024</time>
+                </span>
+                <section class="post-content">
+                <p>X flare</p>
+<p>rename (X flare) -&gt; "climate change" + activate 'haarp'</p>
+<p>=&gt; Xtreme weather + Chaos</p>
+<p>Tech gods were right?</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7166571091564412929-qpuu">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>https://blogs.nasa.gov/solarcycle25/2024/02/22/sun-releases-two-strong-flares/</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7166046809520234497.html" rel="bookmark" title="Permalink to Some Irony of a Bharat Ratna">Some Irony of a Bharat Ratna</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="21 Feb 2024">21 Feb 2024</time>
+                </span>
+                <section class="post-content">
+                <p>Some Irony of a Bharat Ratna</p>
+<ul>
+<li>
+<p>Stock price GOOG++</p>
+</li>
+<li>
+<p>employees--</p>
+</li>
+<li>
+<p>internal/external trust = ??</p>
+</li>
+</ul>
+<p>Max Alfredness achieved!!!</p>
+<p>Values:</p>
+<p>Google Values</p>
+<p>Indian</p>
+<p>Regional</p>
+<p>Religion</p>
+<ul>
+<li>all seem 'value-less'</li>
+</ul>
+<p>the mighty $ wins again.</p>
+<p>AI - seems to be taking 'over' work.</p>
+<p>But then, wasnt google about 'innovation'?</p>
+<p>and AI is about 'permutations' of already done 'innovation'</p>
+<p>=&gt; Peak of Innovation has been achieved.</p>
+<p>==&gt; all is done?</p>
+<p>All these page 3 blah labels - all made by $ or its forms.</p>
+<p>Pichai or Alfred - who can tell?</p>
+<p>https://finance.yahoo.com/news/google-lays-off-thousands-more-210822278.html</p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7166046809520234497-BJiG">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>Another aspect of 'all is done' - brit science..</p>
+<p>quantum theory - unconclusive</p>
+<p>string theory - dont know...</p>
+<p>and this dataset of 'knowledge' - is capable enough to make ai a god..</p>
+<p>alfreds produce alfreds</p>
+<p>ai would produce faster alfreds... that their dna/dataset...</p>
+<p>the purpose = produce alfreds...</p>
+<p>or it doesnt matter what ai produces...</p>
+<p>neurakink - </p>
+<p>pichai, muskie, brin - all black rock fin..</p>
+<p>the masters - brit ones...</p>
+<p>baphomet - the green and white game.</p>
+<p>infinity of the same...</p>
+<p>this seems like 5/6th fast format of earth - pyramids, dwarka, atlantis, mu - all separated by quick formats.</p>
+<p>... delusional....</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>Tea origins PM - gimme a problem, i ll make a solution - his challenge to the world.</p>
+<p>Bharat Ratna - gimme a solution, i ll make it a problem</p>
+<p>irony of 2 indias.</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>"I don't want to be a product of my environment. I want my environment to be a product of me." </p>
+<ul>
+<li>The Departed (2006) </li>
+</ul>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/green.html">green</a><a href="./tag/white.html">white</a><a href="./tag/google.html">google</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7165821835694075905.html" rel="bookmark" title="Permalink to i did enough bleh here...">i did enough bleh here...</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="21 Feb 2024">21 Feb 2024</time>
+                </span>
+                <section class="post-content">
+                <p>i did enough bleh here...</p>
+<p>i honestly thought i would be stopped...via masters and their masterness</p>
+<p>good.</p>
+<p>so lets try some 'redundancy'</p>
+<ul>
+<li>
+<p>github repo for all the 'ideas' - mind map etc</p>
+</li>
+<li>
+<p>go joker - randomly - maybe introduce mind - maps with some 'g interest'</p>
+</li>
+<li>
+<p>and put ai to use - some bleh, some characters - some devis and finally</p>
+</li>
+<li>
+<p>a v v indi mom - using her hindu traditions to do some harry potter stuff...</p>
+</li>
+<li>
+<p>all for betti's future - an othello moment of kinds!!</p>
+</li>
+</ul>
+<p>so we got all the characters pretty much penned in...</p>
+<p>lets see what a/v can ai produce???</p>
+<p>So ... silence...life .... time and ??</p>
+<p>lets keep it random!! 🤣 </p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7165821835694075905-p9S4">originally posted on linkedin</a></em></p>
+<hr>
+<p>After Thoughts</p>
+<p>Thoth:#1</p>
+<blockquote>
+<p>my lurv for written word - religion etx - has some v v logical, society expected, hence legally bound 'expectations' from the proud objects of proudness carried out by religious nepotism </p>
+<ul>
+<li>never take anything from your 'sister/daughter' once she is married..</li>
+</ul>
+<p>but new fem devi indi hybrid version...had a cool new algo of femness </p>
+<ul>
+<li>it is just cool</li>
+</ul>
+<p>the money, karma and hockus pockus part...if dissected from 'hermetic principles' is kinda weird and conclusive</p>
+<p>assuming hockus pockus is real...and works..</p>
+<p>1 should have earned the energy (materials, food, water - raw material) of 1s own money /energy</p>
+<p>but genius incestral 5 footiya iq .... who never earned, would never 'learn' the basics - muggery - the cost of $ religion...</p>
+<p>even in arcane stuff...</p>
+<p>masterpieces - of a video game origins story done right</p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/fXmAurh012s'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span>
+</p>
+</blockquote>
+<p>Thoth:#2</p>
+<blockquote>
+<p>parents - and their 'influence' - goals, limitations and hence perception...</p>
+<p>the bios of us..</p>
+<p>nature vs nurture..</p>
+<p>sometimes its is as lame as $$ 😂 dont need to think much.</p>
+</blockquote>
+<p>Thoth:#3</p>
+<blockquote>
+<p>Such an exciting and creative journey ahead! Can't wait to see what you come up with! 🎨</p>
+</blockquote>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/religion.html">religion</a><a href="./tag/bleh.html">bleh</a><a href="./tag/idea.html">idea</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="post">
+        <div class="inner">
+            <div class="box post-box">
+                <h2 class="post-title"><a href="./post_7165731467837255680.html" rel="bookmark" title="Permalink to The laws of universal 'niceness'">The laws of universal 'niceness'</a>
+                </h2>
+                <span class="post-meta">
+                    By 
+                        <a class="post-meta-tag" href="./author/ashish-tanwar.html">Ashish Tanwar</a>
+                        <a class="post-meta-tag" href="./author/paw.html">Paw</a>
+                     in 
+                    <a class="post-meta-tag" href="./category/religion.html">Religion</a>
+                      on <time datetime="20 Feb 2024">20 Feb 2024</time>
+                </span>
+                <section class="post-content">
+                <p>The laws of universal 'niceness'</p>
+<p>i dont care</p>
+<p>what u do in your private time</p>
+<p>dont make me watch it - publically - tv streets internet etc</p>
+<p>I may like to watch it, not likey to watch it  (like this-&gt;. 😘 )</p>
+<p>rest - eat green produce red/white... no one cares..</p>
+<p>really no one..</p>
+<p>just the sacred rule - i dont care. 😂 </p>
+<p><em><a href="https://www.linkedin.com/posts/activity-7165731467837255680-02Ll">originally posted on linkedin</a></em></p>
+                </section>
+
+                <div class="post-excerpt">
+
+                    <aside class="post-tags">
+<a href="./tag/green.html">green</a><a href="./tag/white.html">white</a>                    </aside>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<nav class="pagination" aria-label="Pagination" role="pagination">
   <div class="inner">
-    <a class="pagination-next" href="./index111.html"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
-    <span class="pagination-info">Page 112 / 194</span>
-    <a class="pagination-prev" href="./index113.html"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
-    <div class="clear"></div>
+    <div class="box pagination-box">
+      <a title="Newer Posts" class="pagination-next" href="./index111.html"><i class="icon icon-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+      <span class="pagination-info">Page 112 of 205</span>
+      <a title="Older Posts" class="pagination-prev" href="./index113.html"><span class="pagination-label">Older Posts</span> <i class="icon icon-arrow-right"></i></a>
+    </div>
   </div>
 </nav>
   </main>
 </div>
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class=""></div>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">A quest for balance &copy; 2023
+        </span>
+        <span class="nav-credits">
 
-    <footer id="footer">
-      <div class="inner">
-        <section class="credits">
-        </section>
-      </div>
-    </footer>
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="./theme/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="./theme/js/script.js"></script>
 
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
 </body>
+
 </html>
